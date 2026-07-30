@@ -1,0 +1,16 @@
+# HIT-UAV frozen-encoder linear probe
+
+Image-level multi-label classification; this is not object detection.
+
+| model | checkpoint | test mAP |
+|---|---:|---:|
+| openai_clip_vit_b32_0k | pretrained-base | 73.6900 |
+| dual_text_580k_seed42 | latest.pt | 76.9041 |
+| georsclip_vit_b32_0k | latest.pt | 79.5377 |
+| grayscale_580k_seed42 | latest.pt | 81.8494 |
+| remoteclip_vit_b32_0k | latest.pt | 79.2170 |
+| rgb_duplicate_580k_seed42 | latest.pt | 80.0357 |
+| rgb_only_580k_seed42 | latest.pt | 79.2782 |
+| trimodal_580k_seed2026 | latest.pt | 76.6510 |
+| trimodal_580k_seed3407 | latest.pt | 79.6865 |
+| trimodal_580k_seed42 | latest.pt | 80.9199 |

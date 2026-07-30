@@ -1,0 +1,35 @@
+{
+  "annotation_type": "AI-assisted; not human annotation",
+  "caption_eval_image_task_rows": 998,
+  "caption_input_rows": 3000,
+  "caption_models": [
+    "gpt-5.6-luna",
+    "gpt-5.6-sol",
+    "gpt-5.6-terra"
+  ],
+  "caption_reference_count_distribution": {
+    "1": 4,
+    "2": 30,
+    "3": 964
+  },
+  "caption_rejected_reference_rows": 44,
+  "caption_unique_images": 499,
+  "caption_valid_reference_rows": 2956,
+  "caption_zero_reference_ids": [
+    "FBQ-0412"
+  ],
+  "known_issue": "Object-presence questions are strongly positive-biased and include non-yes/no answers; repair before final publication.",
+  "vqa_input_rows": 2000,
+  "vqa_object_presence_valid": 498,
+  "vqa_object_presence_yes_exact": 464,
+  "vqa_object_presence_yes_exact_rate": 0.931727,
+  "vqa_rejected_rows": 7,
+  "vqa_unique_images": 500,
+  "vqa_valid_by_type": {
+    "intensity_contrast": 500,
+    "object_presence": 498,
+    "scene_category": 495,
+    "spatial_structure": 500
+  },
+  "vqa_valid_rows": 1993
+}

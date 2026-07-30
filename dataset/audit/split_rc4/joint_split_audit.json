@@ -1,0 +1,65 @@
+{
+  "empty_caption_counts": {
+    "train": 8
+  },
+  "errors": [],
+  "image_cluster_files": [
+    {
+      "components": 34160,
+      "members": 84375,
+      "path": "rgb_near_phash_clusters.jsonl.gz"
+    },
+    {
+      "components": 14338,
+      "members": 34268,
+      "path": "ir_near_phash_clusters.jsonl.gz"
+    }
+  ],
+  "legacy_caption_keys_cross_split": 0,
+  "missing_image_paths": 0,
+  "passed": true,
+  "phash_components_cross_split": 0,
+  "protected_rows_outside_train": 0,
+  "rows": 600000,
+  "source_counts": {
+    "NWPU": {
+      "test": 536,
+      "train": 30094,
+      "val": 556
+    },
+    "RS5M": {
+      "test": 7681,
+      "train": 472682,
+      "val": 7670
+    },
+    "RSICD": {
+      "test": 725,
+      "train": 9383,
+      "val": 716
+    },
+    "RSITMD": {
+      "test": 500,
+      "train": 3691,
+      "val": 500
+    },
+    "SkyScript": {
+      "test": 558,
+      "train": 64150,
+      "val": 558
+    }
+  },
+  "split_counts": {
+    "test": 10000,
+    "train": 580000,
+    "val": 10000
+  },
+  "strict_caption_keys_cross_split": 0,
+  "test_unique": {
+    "errors": [],
+    "rows": 9553
+  },
+  "val_unique": {
+    "errors": [],
+    "rows": 9538
+  }
+}

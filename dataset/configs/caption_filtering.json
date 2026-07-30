@@ -1,0 +1,26 @@
+{
+  "schema_version": "fusionrs-caption-filter-v1",
+  "traceable_accepted_train": 48616,
+  "strict_v2_accepted_train": 45957,
+  "strict_v2_removed": 2659,
+  "strict_v3_accepted_train": 45913,
+  "strict_v3_additional_removed": 44,
+  "strict_v3_total_removed_from_traceable_pool": 2703,
+  "strict_v3_total_removed_rate": 0.0556,
+  "blocked_semantic_categories": [
+    "temperature_or_heat",
+    "emissivity_or_radiance",
+    "reflectivity",
+    "material_or_surface_property",
+    "unsupported_rgb_color"
+  ],
+  "strict_v3_additional_reasons": {
+    "thermal_signature": 34,
+    "unsupported_rgb_color": 9,
+    "temperature_inference": 1
+  },
+  "legacy_generation_counts_not_for_release": {
+    "raw": 49068,
+    "strict": 46390
+  }
+}

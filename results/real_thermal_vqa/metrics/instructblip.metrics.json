@@ -1,0 +1,95 @@
+{
+  "by_type": {
+    "dominant_object_class": {
+      "accuracy": 41.4763,
+      "accuracy_ci95": [
+        37.2583,
+        45.5185
+      ],
+      "images": 569,
+      "parse_failure_rate": 0.0,
+      "rows": 569
+    },
+    "group_location": {
+      "accuracy": 37.5857,
+      "accuracy_ci95": [
+        33.7806,
+        41.2331
+      ],
+      "images": 571,
+      "parse_failure_rate": 0.0,
+      "rows": 729
+    },
+    "object_count": {
+      "accuracy": 21.9479,
+      "accuracy_ci95": [
+        19.0537,
+        25.0
+      ],
+      "images": 571,
+      "parse_failure_rate": 1.5089,
+      "rows": 729
+    },
+    "object_presence": {
+      "accuracy": 69.3144,
+      "accuracy_ci95": [
+        66.9451,
+        71.5885
+      ],
+      "images": 567,
+      "parse_failure_rate": 0.0,
+      "rows": 1196
+    }
+  },
+  "confusion": {
+    "no->no": 577,
+    "no->yes": 21,
+    "yes->no": 346,
+    "yes->yes": 252
+  },
+  "model_tag": "instructblip",
+  "overall": {
+    "accuracy": 46.5095,
+    "accuracy_ci95": [
+      44.6897,
+      48.4004
+    ],
+    "images": 579,
+    "parse_failure_rate": 0.3413,
+    "rows": 3223
+  },
+  "presence_by_answer": {
+    "no": {
+      "accuracy": 96.4883,
+      "accuracy_ci95": [
+        95.0763,
+        97.9276
+      ],
+      "images": 491,
+      "parse_failure_rate": 0.0,
+      "rows": 598
+    },
+    "yes": {
+      "accuracy": 42.1405,
+      "accuracy_ci95": [
+        38.6818,
+        45.6085
+      ],
+      "images": 475,
+      "parse_failure_rate": 0.0,
+      "rows": 598
+    }
+  },
+  "presence_by_class": {
+    "null": {
+      "accuracy": 69.3144,
+      "accuracy_ci95": [
+        66.9451,
+        71.5885
+      ],
+      "images": 567,
+      "parse_failure_rate": 0.0,
+      "rows": 1196
+    }
+  }
+}

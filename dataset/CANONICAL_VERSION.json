@@ -1,0 +1,28 @@
+{
+  "dataset": "FusionRS",
+  "version": "rc4-20260727",
+  "status": "public-metadata-release",
+  "split_policy": "rgb_ir_phash64_radius4_caption_balanced_joint_group_split",
+  "expected_counts": {
+    "records": 600000,
+    "train": 580000,
+    "train_usable": 579992,
+    "validation": 10000,
+    "test": 10000,
+    "validation_unique_representatives": 9538,
+    "test_unique_representatives": 9553,
+    "ir_aware_training_captions": 45913
+  },
+  "public_artifacts": {
+    "manifests/fusionrs_public_index_v3_rc4_20260727.jsonl.gz": {
+      "rows": 600000,
+      "sha256": "b595b3885c9a1f45f065056d6fcd22ae57eda57ae017132e906cf301af687f34"
+    },
+    "audit/split_rc4/joint_split_audit.json": {
+      "sha256": "d46e69db6b33d753a6188d582323097d5600e25154991359cbe4eb35419fd127"
+    },
+    "audit/split_rc4/ir_image_audit_summary.json": {
+      "sha256": "cf9482e1372e547b0aa38dabcb0d8d252f715c443f212834e2102502cef0822c"
+    }
+  }
+}

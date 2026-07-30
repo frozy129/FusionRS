@@ -1,0 +1,32 @@
+{
+  "schema_version": "fusionrs-iraware-generation-v1",
+  "task": "IR-aware caption generation for translated infrared-style remote-sensing images",
+  "service": {
+    "provider": "OpenRouter",
+    "endpoint": "https://openrouter.ai/api/v1/chat/completions",
+    "model_route": "qwen/qwen2.5-vl-72b-instruct",
+    "provider_pinned": false,
+    "immutable_model_snapshot_available": false,
+    "access_period": {
+      "start": "2026-05-19",
+      "end": "2026-05-20"
+    }
+  },
+  "inputs": [
+    "translated_infrared_style_image",
+    "original_scene_caption"
+  ],
+  "decoding": {
+    "temperature": 0.2,
+    "max_tokens": 180
+  },
+  "prompt_template": "You are annotating an infrared-style remote-sensing dataset.\n\nYou are given:\n1. a generated infrared-style remote-sensing image,\n2. the original scene-level caption.\n\nImportant note:\nThe infrared image is generated from RGB rather than captured by a physical thermal sensor. Describe visible infrared-style appearance and grayscale intensity patterns, but do not make physical claims about actual temperature, heat sources, or thermal emission.\n\nWrite one concise IR-aware caption for the generated infrared-style remote-sensing image.\n\nRequirements:\n- Preserve the scene semantics from the original caption.\n- Add infrared-style visual cues, such as grayscale intensity, bright/dark intensity responses, low-texture regions, structural outlines, and contrast.\n- Do not invent objects that are not visible or not implied by the original caption.\n- Do not mention uncertainty.\n- Do not describe the image as a natural RGB image.\n- Use 1 to 2 sentences only.\n- Output valid JSON only.\n\nOriginal caption:\n{original_caption}\n\nOutput JSON schema:\n{\n  \"ir_aware_caption\": \"...\"\n}",
+  "post_generation_policy": {
+    "accepted_caption_manifest": "manifests/iraware_strict_v3_45913.jsonl.gz",
+    "filter_configuration": "configs/caption_filtering.json",
+    "accepted_count": 45913,
+    "released_caption_strings_are_frozen": true,
+    "exact_text_regeneration_claimed": false,
+    "reason": "The hosted route did not expose an immutable model snapshot and the underlying provider was not pinned."
+  }
+}

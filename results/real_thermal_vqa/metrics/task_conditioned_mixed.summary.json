@@ -1,0 +1,7 @@
+{
+  "elapsed_seconds": 618.737,
+  "expected": 3223,
+  "missing_or_error": 0,
+  "model_tag": "task_conditioned_mixed",
+  "successful": 3223
+}

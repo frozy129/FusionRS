@@ -1,0 +1,22 @@
+{
+  "translator": "DiffV2IR",
+  "code_license": "Apache-2.0",
+  "project_url": "https://diffv2ir.github.io/",
+  "paper": "arXiv:2503.19012",
+  "entrypoint": "infer_codex_dataset.py",
+  "entrypoint_sha256": "fe22a8076f53c700c4be3163316e8c537dc7ecd580e01d66075dbcc90bf4d4f2",
+  "config": "configs/generate.yaml",
+  "config_sha256": "c590f6d949825ca44aff3ee88c3d7639a703e9f4207ddd03eaa82469b9512e3c",
+  "checkpoint": "after_phase_2.ckpt",
+  "checkpoint_sha256": "177d039996054c8a513c84296f7b255656817b7f296e60d8a605874ca9621a80",
+  "settings": {
+    "resolution": 512,
+    "steps": 20,
+    "cfg_text": 7.5,
+    "cfg_image": 1.5,
+    "cfg_seg": 1.5,
+    "seed": 1234,
+    "sampler": "Euler ancestral"
+  },
+  "determinism_note": "Hashes identify the checked code, config, and checkpoint. Exact output-byte reproduction additionally depends on the recorded software and GPU environment."
+}

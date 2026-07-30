@@ -1,0 +1,141 @@
+{
+  "title": "CLIP checkpoint selection on clean held-out val",
+  "candidate_checkpoints": [
+    "latest.pt"
+  ],
+  "num_samples": 9538,
+  "dropped_samples": 0,
+  "created_at": "2026-07-27 04:20:47",
+  "results": [
+    {
+      "model": "georsclip_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.09173830991822185,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.013000629062696582,
+          "R@5": 0.03963094988467184,
+          "R@10": 0.0603900188718809
+        },
+        "original_caption->IR": {
+          "R@1": 0.03187250996015936,
+          "R@5": 0.07905221220381631,
+          "R@10": 0.11417487942964982
+        },
+        "RGB->IR": {
+          "R@1": 0.12182847557139861,
+          "R@5": 0.2249947578108618,
+          "R@10": 0.2807716502411407
+        },
+        "IR->RGB": {
+          "R@1": 0.02180750681484588,
+          "R@5": 0.04665548332983854,
+          "R@10": 0.06668064583770182
+        }
+      }
+    },
+    {
+      "model": "georsclip_fusionrs_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6878887956944153,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.22237366324176977,
+          "R@5": 0.4731599916124974,
+          "R@10": 0.5915286223526944
+        },
+        "original_caption->IR": {
+          "R@1": 0.22258335080729713,
+          "R@5": 0.4623610819878381,
+          "R@10": 0.5805200251625079
+        },
+        "RGB->IR": {
+          "R@1": 0.8899140280981338,
+          "R@5": 0.9716921786538059,
+          "R@10": 0.9852170266303208
+        },
+        "IR->RGB": {
+          "R@1": 0.8966240301950095,
+          "R@5": 0.9736842105263158,
+          "R@10": 0.9850073390647934
+        }
+      }
+    },
+    {
+      "model": "remoteclip_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.030317327182498077,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.0030404697001467813,
+          "R@5": 0.009226252883204026,
+          "R@10": 0.016670161459425455
+        },
+        "original_caption->IR": {
+          "R@1": 0.004193751310547285,
+          "R@5": 0.012266722583350808,
+          "R@10": 0.019605787376808556
+        },
+        "RGB->IR": {
+          "R@1": 0.03659048018452506,
+          "R@5": 0.07905221220381631,
+          "R@10": 0.10746487733277417
+        },
+        "IR->RGB": {
+          "R@1": 0.011847347452296078,
+          "R@5": 0.025896414342629483,
+          "R@10": 0.037953449360452925
+        }
+      }
+    },
+    {
+      "model": "remoteclip_fusionrs_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6672782553994548,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.19312224785070245,
+          "R@5": 0.42587544558607676,
+          "R@10": 0.5439295449779828
+        },
+        "original_caption->IR": {
+          "R@1": 0.1857831830572447,
+          "R@5": 0.4144474732648354,
+          "R@10": 0.5377437617949256
+        },
+        "RGB->IR": {
+          "R@1": 0.8918012161878801,
+          "R@5": 0.9692807716502412,
+          "R@10": 0.9827007758439924
+        },
+        "IR->RGB": {
+          "R@1": 0.9040679387712308,
+          "R@5": 0.973579366743552,
+          "R@10": 0.9850073390647934
+        }
+      }
+    }
+  ],
+  "selected": {
+    "georsclip_0k": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.09173830991822185
+    },
+    "georsclip_fusionrs_580k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.6878887956944153
+    },
+    "remoteclip_0k": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.030317327182498077
+    },
+    "remoteclip_fusionrs_580k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.6672782553994548
+    }
+  }
+}

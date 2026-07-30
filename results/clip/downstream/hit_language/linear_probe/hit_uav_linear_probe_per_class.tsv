@@ -1,0 +1,41 @@
+model	checkpoint_name	class_name	selected_C	val_ap	test_ap	train_positives	val_positives	test_positives
+openai_clip_vit_b32_0k	pretrained-base	person	10.0	96.6080	96.9426	1165	171	355
+openai_clip_vit_b32_0k	pretrained-base	bicycle	10.0	70.5555	63.1180	321	53	86
+openai_clip_vit_b32_0k	pretrained-base	car	10.0	95.4590	97.4605	995	136	267
+openai_clip_vit_b32_0k	pretrained-base	other vehicle	10.0	47.2033	37.2387	79	9	21
+dual_text_580k_seed42	latest.pt	person	10.0	96.3669	97.2970	1165	171	355
+dual_text_580k_seed42	latest.pt	bicycle	10.0	77.6513	76.8004	321	53	86
+dual_text_580k_seed42	latest.pt	car	10.0	97.1246	98.3263	995	136	267
+dual_text_580k_seed42	latest.pt	other vehicle	10.0	42.3151	35.1924	79	9	21
+georsclip_vit_b32_0k	latest.pt	person	10.0	96.0710	97.0690	1165	171	355
+georsclip_vit_b32_0k	latest.pt	bicycle	10.0	74.7474	71.3980	321	53	86
+georsclip_vit_b32_0k	latest.pt	car	10.0	97.0328	98.0090	995	136	267
+georsclip_vit_b32_0k	latest.pt	other vehicle	10.0	35.9658	51.6748	79	9	21
+grayscale_580k_seed42	latest.pt	person	10.0	97.3295	97.6634	1165	171	355
+grayscale_580k_seed42	latest.pt	bicycle	10.0	80.6136	75.3481	321	53	86
+grayscale_580k_seed42	latest.pt	car	10.0	97.7221	98.9213	995	136	267
+grayscale_580k_seed42	latest.pt	other vehicle	10.0	36.5659	55.4647	79	9	21
+remoteclip_vit_b32_0k	latest.pt	person	10.0	96.9178	97.4819	1165	171	355
+remoteclip_vit_b32_0k	latest.pt	bicycle	10.0	77.4085	71.0260	321	53	86
+remoteclip_vit_b32_0k	latest.pt	car	10.0	94.4295	96.9955	995	136	267
+remoteclip_vit_b32_0k	latest.pt	other vehicle	10.0	51.0304	51.3644	79	9	21
+rgb_duplicate_580k_seed42	latest.pt	person	10.0	97.1603	97.3396	1165	171	355
+rgb_duplicate_580k_seed42	latest.pt	bicycle	10.0	71.8721	74.4858	321	53	86
+rgb_duplicate_580k_seed42	latest.pt	car	10.0	96.8993	98.5423	995	136	267
+rgb_duplicate_580k_seed42	latest.pt	other vehicle	10.0	36.5523	49.7750	79	9	21
+rgb_only_580k_seed42	latest.pt	person	10.0	96.9974	97.3367	1165	171	355
+rgb_only_580k_seed42	latest.pt	bicycle	10.0	73.0993	74.1774	321	53	86
+rgb_only_580k_seed42	latest.pt	car	10.0	96.8612	98.5780	995	136	267
+rgb_only_580k_seed42	latest.pt	other vehicle	10.0	39.2759	47.0206	79	9	21
+trimodal_580k_seed2026	latest.pt	person	10.0	96.9712	97.5691	1165	171	355
+trimodal_580k_seed2026	latest.pt	bicycle	10.0	80.4421	79.9125	321	53	86
+trimodal_580k_seed2026	latest.pt	car	10.0	97.7870	98.3490	995	136	267
+trimodal_580k_seed2026	latest.pt	other vehicle	1.0	52.6611	30.7733	79	9	21
+trimodal_580k_seed3407	latest.pt	person	10.0	96.9065	97.5359	1165	171	355
+trimodal_580k_seed3407	latest.pt	bicycle	10.0	80.8902	79.9356	321	53	86
+trimodal_580k_seed3407	latest.pt	car	10.0	97.5795	98.2749	995	136	267
+trimodal_580k_seed3407	latest.pt	other vehicle	10.0	53.4715	42.9998	79	9	21
+trimodal_580k_seed42	latest.pt	person	10.0	96.6844	97.5257	1165	171	355
+trimodal_580k_seed42	latest.pt	bicycle	10.0	79.0447	79.8074	321	53	86
+trimodal_580k_seed42	latest.pt	car	10.0	97.5990	98.5982	995	136	267
+trimodal_580k_seed42	latest.pt	other vehicle	10.0	54.4321	47.7483	79	9	21

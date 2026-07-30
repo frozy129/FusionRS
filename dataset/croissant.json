@@ -1,0 +1,113 @@
+{
+  "@context": {
+    "@language": "en",
+    "@vocab": "https://schema.org/",
+    "sc": "https://schema.org/",
+    "cr": "http://mlcommons.org/croissant/",
+    "rai": "http://mlcommons.org/croissant/RAI/",
+    "dct": "http://purl.org/dc/terms/",
+    "citeAs": "cr:citeAs",
+    "column": "cr:column",
+    "conformsTo": "dct:conformsTo",
+    "containedIn": "cr:containedIn",
+    "data": {
+      "@id": "cr:data",
+      "@type": "@json"
+    },
+    "dataType": {
+      "@id": "cr:dataType",
+      "@type": "@vocab"
+    },
+    "equivalentProperty": "cr:equivalentProperty",
+    "examples": {
+      "@id": "cr:examples",
+      "@type": "@json"
+    },
+    "extract": "cr:extract",
+    "field": "cr:field",
+    "fileProperty": "cr:fileProperty",
+    "fileObject": "cr:fileObject",
+    "fileSet": "cr:fileSet",
+    "format": "cr:format",
+    "includes": "cr:includes",
+    "isLiveDataset": "cr:isLiveDataset",
+    "jsonPath": "cr:jsonPath",
+    "key": "cr:key",
+    "md5": "cr:md5",
+    "parentField": "cr:parentField",
+    "path": "cr:path",
+    "recordSet": "cr:recordSet",
+    "references": "cr:references",
+    "regex": "cr:regex",
+    "repeated": "cr:repeated",
+    "replace": "cr:replace",
+    "samplingRate": "cr:samplingRate",
+    "separator": "cr:separator",
+    "sdVersion": "cr:sdVersion",
+    "source": "cr:source",
+    "subField": "cr:subField",
+    "transform": "cr:transform"
+  },
+  "@type": "sc:Dataset",
+  "name": "FusionRS",
+  "description": "A rights-redacted index of 600,000 remote-sensing source identifiers, fixed groups and splits, locally reconstructable infrared-style views, and text-supervision availability metadata. No upstream image bytes, translated image bytes, source-caption strings, or uncleared derived-caption strings are distributed.",
+  "conformsTo": "http://mlcommons.org/croissant/1.0",
+  "url": "https://github.com/frozy129/FusionRS",
+  "license": "https://github.com/frozy129/FusionRS/blob/main/dataset/THIRD_PARTY_NOTICES.md",
+  "creator": {
+    "@type": "Organization",
+    "name": "FusionRS authors"
+  },
+  "datePublished": "2026-07-27",
+  "dateModified": "2026-07-27",
+  "version": "0.4.0-rc4",
+  "citeAs": "FusionRS authors. FusionRS, version 0.4.0-rc4, 2026. https://github.com/frozy129/FusionRS",
+  "sdVersion": "1.0",
+  "isLiveDataset": false,
+  "keywords": [
+    "remote sensing",
+    "infrared-style imagery",
+    "vision-language learning",
+    "cross-modal retrieval",
+    "dataset benchmark"
+  ],
+  "usageInfo": "Index-only research release. Users must obtain upstream data through official routes and comply with source-specific terms. Translated infrared-style views are not physical thermal measurements. Individual identification, persistent tracking, operational targeting, autonomous surveillance, weapon-related decisions, and safety-critical uses are outside the intended scope.",
+  "distribution": [
+    {
+      "@type": "cr:FileObject",
+      "@id": "canonical-index",
+      "name": "Public rights-redacted FusionRS rc4 index",
+      "description": "Gzip-compressed JSON Lines index containing source identifiers, fixed splits, opaque group metadata, row-level rights codes, and reconstruction metadata. Source-caption and class-name fields are removed.",
+      "contentUrl": "fusionrs_public_index_v3_rc4_20260727.jsonl.gz",
+      "encodingFormat": "application/gzip",
+      "contentSize": "24074713 B",
+      "sha256": "b595b3885c9a1f45f065056d6fcd22ae57eda57ae017132e906cf301af687f34"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "record-schema",
+      "name": "FusionRS public redacted record schema",
+      "contentUrl": "schemas/fusionrs-public-record-v1.schema.json",
+      "encodingFormat": "application/schema+json",
+      "contentSize": "2460 B",
+      "sha256": "de5abe32635d5449a42e335146b24a73bb21e2a11d44007b7c6356bad3a3fd1c"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "split-config",
+      "name": "Group-aware split configuration",
+      "contentUrl": "configs/split_v3.json",
+      "encodingFormat": "application/json",
+      "sha256": "0cefde028b882f2336bff8b3dfaffaa7f0a85807dacdc2d755103a60cf8df52c"
+    },
+    {
+      "@type": "cr:FileObject",
+      "@id": "source-rights",
+      "name": "Source-specific rights metadata",
+      "contentUrl": "licenses/sources.json",
+      "encodingFormat": "application/json",
+      "contentSize": "5793 B",
+      "sha256": "2d59c8f4e0e602ddff91d3034b8b2c3678086bf0556b07c2ff67f555a35a3eb3"
+    }
+  ]
+}

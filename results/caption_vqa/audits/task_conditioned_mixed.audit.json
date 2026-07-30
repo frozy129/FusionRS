@@ -1,0 +1,111 @@
+{
+  "caption": {
+    "by_task": {
+      "ir_observable_description": {
+        "average_words": 31.7595,
+        "empty_rate": 0.0,
+        "exact_reference_copy_rate": 0.0,
+        "generic_failure_rate": 0.0,
+        "images": 499,
+        "ir_cue_rate": 1.0,
+        "long_output_rate_ge_25": 0.9779559118236473,
+        "most_common_prediction_rate": 0.01603206412825651,
+        "rgb_color_term_rate": 0.0,
+        "rows": 499,
+        "short_output_rate_le_15": 0.0,
+        "unique_prediction_rate": 0.9338677354709419,
+        "unsupported_physical_claim_rate": 0.0
+      },
+      "semantic_description": {
+        "average_words": 23.0481,
+        "empty_rate": 0.0,
+        "exact_reference_copy_rate": 0.0,
+        "generic_failure_rate": 0.0,
+        "images": 499,
+        "ir_cue_rate": 0.04408817635270541,
+        "long_output_rate_ge_25": 0.16633266533066132,
+        "most_common_prediction_rate": 0.022044088176352707,
+        "rgb_color_term_rate": 0.20641282565130262,
+        "rows": 499,
+        "short_output_rate_le_15": 0.7434869739478958,
+        "unique_prediction_rate": 0.6352705410821643,
+        "unsupported_physical_claim_rate": 0.002004008016032064
+      }
+    },
+    "identical_across_prompts_rate": 0.0,
+    "ir_cue_prompt_delta": 0.9559118236472945,
+    "length_prompt_delta": 8.711399999999998,
+    "overall": {
+      "average_words": 27.4038,
+      "empty_rate": 0.0,
+      "exact_reference_copy_rate": 0.0,
+      "generic_failure_rate": 0.0,
+      "images": 499,
+      "ir_cue_rate": 0.5220440881763527,
+      "long_output_rate_ge_25": 0.5721442885771543,
+      "most_common_prediction_rate": 0.011022044088176353,
+      "rgb_color_term_rate": 0.10320641282565131,
+      "rows": 998,
+      "short_output_rate_le_15": 0.3717434869739479,
+      "unique_prediction_rate": 0.7845691382765531,
+      "unsupported_physical_claim_rate": 0.001002004008016032
+    },
+    "paired_images": 499
+  },
+  "input_rows": 2991,
+  "model_tag": "task_conditioned_mixed",
+  "vqa": {
+    "by_type": {
+      "intensity_contrast": {
+        "average_words": 12.574,
+        "empty_rate": 0.0,
+        "exact_accepted_answer_rate": 0.022,
+        "generic_failure_rate": 0.0,
+        "images": 500,
+        "rows": 500,
+        "short_answer_rate_le_5": 0.05,
+        "yes_no_format_rate": null
+      },
+      "object_presence": {
+        "average_words": 9.4137,
+        "empty_rate": 0.0,
+        "exact_accepted_answer_rate": 0.0321285140562249,
+        "generic_failure_rate": 0.0,
+        "images": 498,
+        "rows": 498,
+        "short_answer_rate_le_5": 0.06827309236947791,
+        "yes_no_format_rate": 0.02610441767068273
+      },
+      "scene_category": {
+        "average_words": 13.8667,
+        "empty_rate": 0.0,
+        "exact_accepted_answer_rate": 0.0,
+        "generic_failure_rate": 0.0,
+        "images": 495,
+        "rows": 495,
+        "short_answer_rate_le_5": 0.010101010101010102,
+        "yes_no_format_rate": null
+      },
+      "spatial_structure": {
+        "average_words": 11.652,
+        "empty_rate": 0.0,
+        "exact_accepted_answer_rate": 0.006,
+        "generic_failure_rate": 0.0,
+        "images": 500,
+        "rows": 500,
+        "short_answer_rate_le_5": 0.014,
+        "yes_no_format_rate": null
+      }
+    },
+    "overall": {
+      "average_words": 11.8741,
+      "empty_rate": 0.0,
+      "exact_accepted_answer_rate": 0.015052684395383844,
+      "generic_failure_rate": 0.0,
+      "images": 500,
+      "rows": 1993,
+      "short_answer_rate_le_5": 0.03562468640240843,
+      "yes_no_format_rate": null
+    }
+  }
+}

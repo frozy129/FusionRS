@@ -1,0 +1,17 @@
+{
+  "accepted_radius4_edges": 10021,
+  "candidate_pairs_checked": 2721179,
+  "errors": 0,
+  "exact_phash_cross_split_groups": 0,
+  "exact_phash_cross_split_members": 0,
+  "exact_sha256_cross_split_groups": 0,
+  "exact_sha256_cross_split_members": 0,
+  "hashed_rows": 600000,
+  "passed": true,
+  "radius4_components": 580070,
+  "radius4_cross_split_components": 0,
+  "radius4_cross_split_members": 0,
+  "rows": 600000,
+  "unique_phash64": 590091,
+  "unique_sha256": 593002
+}

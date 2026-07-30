@@ -1,0 +1,429 @@
+{
+  "title": "CLIP checkpoint selection on clean held-out val",
+  "candidate_checkpoints": [
+    "latest.pt"
+  ],
+  "num_samples": 551,
+  "dropped_samples": 0,
+  "created_at": "2026-07-26 23:22:50",
+  "results": [
+    {
+      "model": "base_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.09921355111917725,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.018148820326678767,
+          "R@5": 0.07259528130671507,
+          "R@10": 0.14156079854809436
+        },
+        "original_caption->IR": {
+          "R@1": 0.030852994555353903,
+          "R@5": 0.09618874773139746,
+          "R@10": 0.1542649727767695
+        },
+        "RGB->IR": {
+          "R@1": 0.050816696914700546,
+          "R@5": 0.16152450090744103,
+          "R@10": 0.2413793103448276
+        },
+        "IR->RGB": {
+          "R@1": 0.018148820326678767,
+          "R@5": 0.07985480943738657,
+          "R@10": 0.12522686025408347
+        }
+      }
+    },
+    {
+      "model": "dual_text_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.5520266182698125,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.2159709618874773,
+          "R@5": 0.5480943738656987,
+          "R@10": 0.7241379310344828
+        },
+        "original_caption->IR": {
+          "R@1": 0.1705989110707804,
+          "R@5": 0.49909255898366606,
+          "R@10": 0.705989110707804
+        },
+        "RGB->IR": {
+          "R@1": 0.4319419237749546,
+          "R@5": 0.7168784029038112,
+          "R@10": 0.8003629764065335
+        },
+        "IR->RGB": {
+          "R@1": 0.33756805807622503,
+          "R@5": 0.6823956442831216,
+          "R@10": 0.7912885662431942
+        }
+      }
+    },
+    {
+      "model": "georsclip_vit_b32_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.19192377495462795,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.038112522686025406,
+          "R@5": 0.15970961887477314,
+          "R@10": 0.23593466424682397
+        },
+        "original_caption->IR": {
+          "R@1": 0.06896551724137931,
+          "R@5": 0.21415607985480944,
+          "R@10": 0.3157894736842105
+        },
+        "RGB->IR": {
+          "R@1": 0.132486388384755,
+          "R@5": 0.30127041742286753,
+          "R@10": 0.426497277676951
+        },
+        "IR->RGB": {
+          "R@1": 0.045372050816696916,
+          "R@5": 0.15245009074410162,
+          "R@10": 0.21234119782214156
+        }
+      }
+    },
+    {
+      "model": "grayscale_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.26391409558378703,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.050816696914700546,
+          "R@5": 0.2250453720508167,
+          "R@10": 0.3684210526315789
+        },
+        "original_caption->IR": {
+          "R@1": 0.09618874773139746,
+          "R@5": 0.2577132486388385,
+          "R@10": 0.3938294010889292
+        },
+        "RGB->IR": {
+          "R@1": 0.18874773139745918,
+          "R@5": 0.3811252268602541,
+          "R@10": 0.46098003629764067
+        },
+        "IR->RGB": {
+          "R@1": 0.11433756805807622,
+          "R@5": 0.2595281306715064,
+          "R@10": 0.3702359346642468
+        }
+      }
+    },
+    {
+      "model": "remoteclip_vit_b32_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.10874168179068361,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.016333938294010888,
+          "R@5": 0.07078039927404718,
+          "R@10": 0.12522686025408347
+        },
+        "original_caption->IR": {
+          "R@1": 0.021778584392014518,
+          "R@5": 0.0852994555353902,
+          "R@10": 0.147005444646098
+        },
+        "RGB->IR": {
+          "R@1": 0.07985480943738657,
+          "R@5": 0.23593466424682397,
+          "R@10": 0.30490018148820325
+        },
+        "IR->RGB": {
+          "R@1": 0.010889292196007259,
+          "R@5": 0.07078039927404718,
+          "R@10": 0.13611615245009073
+        }
+      }
+    },
+    {
+      "model": "rgb_duplicate_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.17695099818511797,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.034482758620689655,
+          "R@5": 0.1397459165154265,
+          "R@10": 0.24319419237749546
+        },
+        "original_caption->IR": {
+          "R@1": 0.06896551724137931,
+          "R@5": 0.2159709618874773,
+          "R@10": 0.32304900181488205
+        },
+        "RGB->IR": {
+          "R@1": 0.11070780399274047,
+          "R@5": 0.2776769509981851,
+          "R@10": 0.39019963702359345
+        },
+        "IR->RGB": {
+          "R@1": 0.016333938294010888,
+          "R@5": 0.12341197822141561,
+          "R@10": 0.17967332123411978
+        }
+      }
+    },
+    {
+      "model": "rgb_only_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.1705989110707804,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.034482758620689655,
+          "R@5": 0.14519056261343014,
+          "R@10": 0.24500907441016334
+        },
+        "original_caption->IR": {
+          "R@1": 0.06533575317604355,
+          "R@5": 0.21052631578947367,
+          "R@10": 0.3139745916515426
+        },
+        "RGB->IR": {
+          "R@1": 0.10163339382940109,
+          "R@5": 0.2413793103448276,
+          "R@10": 0.3720508166969147
+        },
+        "IR->RGB": {
+          "R@1": 0.021778584392014518,
+          "R@5": 0.1161524500907441,
+          "R@10": 0.17967332123411978
+        }
+      }
+    },
+    {
+      "model": "trimodal_100k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6270417422867514,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.1306715063520871,
+          "R@5": 0.41742286751361163,
+          "R@10": 0.6152450090744102
+        },
+        "original_caption->IR": {
+          "R@1": 0.12522686025408347,
+          "R@5": 0.37568058076225047,
+          "R@10": 0.5281306715063521
+        },
+        "RGB->IR": {
+          "R@1": 0.73502722323049,
+          "R@5": 0.9274047186932849,
+          "R@10": 0.9618874773139746
+        },
+        "IR->RGB": {
+          "R@1": 0.7912885662431942,
+          "R@5": 0.9473684210526315,
+          "R@10": 0.969147005444646
+        }
+      }
+    },
+    {
+      "model": "trimodal_300k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6825468844525105,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.19056261343012704,
+          "R@5": 0.5099818511796733,
+          "R@10": 0.6987295825771325
+        },
+        "original_caption->IR": {
+          "R@1": 0.16333938294010888,
+          "R@5": 0.44283121597096187,
+          "R@10": 0.631578947368421
+        },
+        "RGB->IR": {
+          "R@1": 0.7985480943738656,
+          "R@5": 0.9509981851179673,
+          "R@10": 0.9800362976406534
+        },
+        "IR->RGB": {
+          "R@1": 0.8566243194192378,
+          "R@5": 0.9782214156079855,
+          "R@10": 0.9891107078039928
+        }
+      }
+    },
+    {
+      "model": "trimodal_50k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.5918027828191167,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.12159709618874773,
+          "R@5": 0.38294010889292196,
+          "R@10": 0.5245009074410163
+        },
+        "original_caption->IR": {
+          "R@1": 0.09437386569872959,
+          "R@5": 0.32304900181488205,
+          "R@10": 0.5081669691470054
+        },
+        "RGB->IR": {
+          "R@1": 0.6987295825771325,
+          "R@5": 0.8874773139745916,
+          "R@10": 0.9491833030852994
+        },
+        "IR->RGB": {
+          "R@1": 0.7441016333938294,
+          "R@5": 0.9165154264972777,
+          "R@10": 0.9509981851179673
+        }
+      }
+    },
+    {
+      "model": "trimodal_580k_seed2026",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.7176346037507563,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.19782214156079855,
+          "R@5": 0.5680580762250453,
+          "R@10": 0.7531760435571688
+        },
+        "original_caption->IR": {
+          "R@1": 0.17422867513611615,
+          "R@5": 0.5208711433756806,
+          "R@10": 0.7005444646098004
+        },
+        "RGB->IR": {
+          "R@1": 0.8620689655172413,
+          "R@5": 0.9637023593466425,
+          "R@10": 0.9891107078039928
+        },
+        "IR->RGB": {
+          "R@1": 0.9001814882032668,
+          "R@5": 0.985480943738657,
+          "R@10": 0.9963702359346642
+        }
+      }
+    },
+    {
+      "model": "trimodal_580k_seed3407",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.7156684815486994,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.2159709618874773,
+          "R@5": 0.5607985480943739,
+          "R@10": 0.7277676950998185
+        },
+        "original_caption->IR": {
+          "R@1": 0.19782214156079855,
+          "R@5": 0.5245009074410163,
+          "R@10": 0.6860254083484574
+        },
+        "RGB->IR": {
+          "R@1": 0.838475499092559,
+          "R@5": 0.9745916515426497,
+          "R@10": 0.9927404718693285
+        },
+        "IR->RGB": {
+          "R@1": 0.8820326678765881,
+          "R@5": 0.9909255898366606,
+          "R@10": 0.9963702359346642
+        }
+      }
+    },
+    {
+      "model": "trimodal_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.7108287961282517,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.19237749546279492,
+          "R@5": 0.5644283121597096,
+          "R@10": 0.7441016333938294
+        },
+        "original_caption->IR": {
+          "R@1": 0.17967332123411978,
+          "R@5": 0.5063520871143375,
+          "R@10": 0.6878402903811253
+        },
+        "RGB->IR": {
+          "R@1": 0.8421052631578947,
+          "R@5": 0.9582577132486388,
+          "R@10": 0.985480943738657
+        },
+        "IR->RGB": {
+          "R@1": 0.8911070780399274,
+          "R@5": 0.985480943738657,
+          "R@10": 0.9927404718693285
+        }
+      }
+    }
+  ],
+  "selected": {
+    "base_0k": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.09921355111917725
+    },
+    "dual_text_580k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.5520266182698125
+    },
+    "georsclip_vit_b32_0k": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.19192377495462795
+    },
+    "grayscale_580k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.26391409558378703
+    },
+    "remoteclip_vit_b32_0k": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.10874168179068361
+    },
+    "rgb_duplicate_580k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.17695099818511797
+    },
+    "rgb_only_580k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.1705989110707804
+    },
+    "trimodal_100k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.6270417422867514
+    },
+    "trimodal_300k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.6825468844525105
+    },
+    "trimodal_50k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.5918027828191167
+    },
+    "trimodal_580k_seed2026": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.7176346037507563
+    },
+    "trimodal_580k_seed3407": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.7156684815486994
+    },
+    "trimodal_580k_seed42": {
+      "checkpoint_name": "latest.pt",
+      "mean_recall": 0.7108287961282517
+    }
+  }
+}

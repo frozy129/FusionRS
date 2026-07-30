@@ -1,0 +1,95 @@
+{
+  "by_type": {
+    "dominant_object_class": {
+      "accuracy": 41.8278,
+      "accuracy_ci95": [
+        37.6098,
+        45.8699
+      ],
+      "images": 569,
+      "parse_failure_rate": 0.0,
+      "rows": 569
+    },
+    "group_location": {
+      "accuracy": 40.192,
+      "accuracy_ci95": [
+        36.4754,
+        44.0592
+      ],
+      "images": 571,
+      "parse_failure_rate": 0.0,
+      "rows": 729
+    },
+    "object_count": {
+      "accuracy": 20.7133,
+      "accuracy_ci95": [
+        17.8253,
+        23.7639
+      ],
+      "images": 571,
+      "parse_failure_rate": 0.0,
+      "rows": 729
+    },
+    "object_presence": {
+      "accuracy": 72.4916,
+      "accuracy_ci95": [
+        69.845,
+        74.9369
+      ],
+      "images": 567,
+      "parse_failure_rate": 0.0,
+      "rows": 1196
+    }
+  },
+  "confusion": {
+    "no->no": 541,
+    "no->yes": 57,
+    "yes->no": 272,
+    "yes->yes": 326
+  },
+  "model_tag": "llava16",
+  "overall": {
+    "accuracy": 48.0608,
+    "accuracy_ci95": [
+      46.1221,
+      50.2207
+    ],
+    "images": 579,
+    "parse_failure_rate": 0.0,
+    "rows": 3223
+  },
+  "presence_by_answer": {
+    "no": {
+      "accuracy": 90.4682,
+      "accuracy_ci95": [
+        88.013,
+        92.7246
+      ],
+      "images": 491,
+      "parse_failure_rate": 0.0,
+      "rows": 598
+    },
+    "yes": {
+      "accuracy": 54.5151,
+      "accuracy_ci95": [
+        50.7413,
+        58.1821
+      ],
+      "images": 475,
+      "parse_failure_rate": 0.0,
+      "rows": 598
+    }
+  },
+  "presence_by_class": {
+    "null": {
+      "accuracy": 72.4916,
+      "accuracy_ci95": [
+        69.845,
+        74.9369
+      ],
+      "images": 567,
+      "parse_failure_rate": 0.0,
+      "rows": 1196
+    }
+  }
+}

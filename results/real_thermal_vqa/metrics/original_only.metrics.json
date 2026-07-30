@@ -1,0 +1,95 @@
+{
+  "by_type": {
+    "dominant_object_class": {
+      "accuracy": 75.5712,
+      "accuracy_ci95": [
+        71.8805,
+        78.9104
+      ],
+      "images": 569,
+      "parse_failure_rate": 0.1757,
+      "rows": 569
+    },
+    "group_location": {
+      "accuracy": 38.2716,
+      "accuracy_ci95": [
+        34.3703,
+        41.9379
+      ],
+      "images": 571,
+      "parse_failure_rate": 0.0,
+      "rows": 729
+    },
+    "object_count": {
+      "accuracy": 22.2222,
+      "accuracy_ci95": [
+        19.2772,
+        25.4453
+      ],
+      "images": 571,
+      "parse_failure_rate": 0.1372,
+      "rows": 729
+    },
+    "object_presence": {
+      "accuracy": 59.699,
+      "accuracy_ci95": [
+        57.0364,
+        62.0173
+      ],
+      "images": 567,
+      "parse_failure_rate": 0.0,
+      "rows": 1196
+    }
+  },
+  "confusion": {
+    "no->no": 594,
+    "no->yes": 4,
+    "yes->no": 478,
+    "yes->yes": 120
+  },
+  "model_tag": "original_only",
+  "overall": {
+    "accuracy": 49.1778,
+    "accuracy_ci95": [
+      47.2108,
+      51.2184
+    ],
+    "images": 579,
+    "parse_failure_rate": 0.0621,
+    "rows": 3223
+  },
+  "presence_by_answer": {
+    "no": {
+      "accuracy": 99.3311,
+      "accuracy_ci95": [
+        98.6622,
+        99.8361
+      ],
+      "images": 491,
+      "parse_failure_rate": 0.0,
+      "rows": 598
+    },
+    "yes": {
+      "accuracy": 20.0669,
+      "accuracy_ci95": [
+        17.1232,
+        23.2414
+      ],
+      "images": 475,
+      "parse_failure_rate": 0.0,
+      "rows": 598
+    }
+  },
+  "presence_by_class": {
+    "null": {
+      "accuracy": 59.699,
+      "accuracy_ci95": [
+        57.0364,
+        62.0173
+      ],
+      "images": 567,
+      "parse_failure_rate": 0.0,
+      "rows": 1196
+    }
+  }
+}

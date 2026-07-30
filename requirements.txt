@@ -1,0 +1,13 @@
+torch>=2.2
+transformers>=4.57,<6
+Pillow>=10
+safetensors>=0.4
+accelerate>=1.2,<2
+bitsandbytes>=0.45,<1
+numpy>=1.26,<3
+peft>=0.14,<1
+qwen-vl-utils>=0.0.10,<1
+open-clip-torch>=2.24,<4
+torchvision>=0.17,<1
+scipy>=1.11,<2
+scikit-learn>=1.4,<2

@@ -1,0 +1,15 @@
+model	checkpoint	mean_recall	direction	R@1	R@5	R@10
+base_0k	latest.pt	22.8793	RGB->thermal	7.8853	29.3907	39.4265
+base_0k	latest.pt	22.8793	thermal->RGB	7.8853	21.1470	31.5412
+dual_text_580k_seed42	latest.pt	43.4289	RGB->thermal	23.6559	57.3477	72.4014
+dual_text_580k_seed42	latest.pt	43.4289	thermal->RGB	15.4122	39.7849	51.9713
+georsclip_vit_b32_0k	latest.pt	24.7909	RGB->thermal	13.2616	34.4086	45.5197
+georsclip_vit_b32_0k	latest.pt	24.7909	thermal->RGB	7.8853	20.0717	27.5986
+grayscale_580k_seed42	latest.pt	35.3644	RGB->thermal	16.8459	44.4444	55.5556
+grayscale_580k_seed42	latest.pt	35.3644	thermal->RGB	15.7706	34.4086	45.1613
+remoteclip_vit_b32_0k	latest.pt	15.2927	RGB->thermal	7.1685	18.2796	25.0896
+remoteclip_vit_b32_0k	latest.pt	15.2927	thermal->RGB	5.3763	13.2616	22.5806
+rgb_duplicate_580k_seed42	latest.pt	33.0944	RGB->thermal	15.4122	40.5018	53.7634
+rgb_duplicate_580k_seed42	latest.pt	33.0944	thermal->RGB	11.8280	31.5412	45.5197
+trimodal_580k_seed42	latest.pt	68.0406	RGB->thermal	40.8602	77.4194	89.2473
+trimodal_580k_seed42	latest.pt	68.0406	thermal->RGB	39.0681	73.4767	88.1720

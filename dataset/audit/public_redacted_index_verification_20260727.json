@@ -1,0 +1,29 @@
+{
+  "blocked_fields_absent": [
+    "caption",
+    "class_name",
+    "image_bytes",
+    "ir_path",
+    "normalized_caption_key",
+    "rgb_path"
+  ],
+  "rows": 600000,
+  "source_split_counts": {
+    "NWPU:test": 536,
+    "NWPU:train": 30094,
+    "NWPU:val": 556,
+    "RS5M:test": 7681,
+    "RS5M:train": 472682,
+    "RS5M:val": 7670,
+    "RSICD:test": 725,
+    "RSICD:train": 9383,
+    "RSICD:val": 716,
+    "RSITMD:test": 500,
+    "RSITMD:train": 3691,
+    "RSITMD:val": 500,
+    "SkyScript:test": 558,
+    "SkyScript:train": 64150,
+    "SkyScript:val": 558
+  },
+  "status": "pass"
+}

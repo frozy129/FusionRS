@@ -1,0 +1,493 @@
+{
+  "title": "HIT-UAV frozen-encoder image-level multi-label linear probe",
+  "annotation_template": "annotations/{split}.json",
+  "created_at": "2026-07-27 04:15:26",
+  "audits": {
+    "train": {
+      "label_files": 1,
+      "missing_images": 0,
+      "skipped_annotations": 0,
+      "format_counts": {
+        "coco": 1
+      },
+      "duplicate_images": 0,
+      "num_samples": 2029,
+      "num_positive_samples": 2008,
+      "num_all_negative_samples": 21,
+      "positives_per_class": {
+        "person": 1165,
+        "bicycle": 321,
+        "car": 995,
+        "other vehicle": 79
+      }
+    },
+    "val": {
+      "label_files": 1,
+      "missing_images": 0,
+      "skipped_annotations": 0,
+      "format_counts": {
+        "coco": 1
+      },
+      "duplicate_images": 0,
+      "num_samples": 290,
+      "num_positive_samples": 287,
+      "num_all_negative_samples": 3,
+      "positives_per_class": {
+        "person": 171,
+        "bicycle": 53,
+        "car": 136,
+        "other vehicle": 9
+      }
+    },
+    "test": {
+      "label_files": 1,
+      "missing_images": 0,
+      "skipped_annotations": 0,
+      "format_counts": {
+        "coco": 1
+      },
+      "duplicate_images": 0,
+      "num_samples": 579,
+      "num_positive_samples": 571,
+      "num_all_negative_samples": 8,
+      "positives_per_class": {
+        "person": 355,
+        "bicycle": 86,
+        "car": 267,
+        "other vehicle": 21
+      }
+    }
+  },
+  "results": [
+    {
+      "model": "openai_clip_vit_b32_0k",
+      "checkpoint_name": "pretrained-base",
+      "mAP": 0.7368997098380953,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9660800159554742,
+          "test_ap": 0.9694262981451323,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.7055546270577505,
+          "test_ap": 0.6311798783677854,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9545902757075406,
+          "test_ap": 0.9746052375109439,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 10.0,
+          "val_ap": 0.4720332502033169,
+          "test_ap": 0.37238742532851965,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    },
+    {
+      "model": "dual_text_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "mAP": 0.769040502041242,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9636693188231458,
+          "test_ap": 0.9729701487727092,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.7765126931242642,
+          "test_ap": 0.768004159923421,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9712459417652184,
+          "test_ap": 0.9832632779214282,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 10.0,
+          "val_ap": 0.42315145938334336,
+          "test_ap": 0.35192442154740994,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    },
+    {
+      "model": "georsclip_vit_b32_0k",
+      "checkpoint_name": "latest.pt",
+      "mAP": 0.7953769305972405,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9607095194750341,
+          "test_ap": 0.9706899074065416,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.747474188131064,
+          "test_ap": 0.7139801350584962,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9703275433066536,
+          "test_ap": 0.9800898948189741,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 10.0,
+          "val_ap": 0.3596579303556048,
+          "test_ap": 0.5167477851049499,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    },
+    {
+      "model": "grayscale_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "mAP": 0.8184938714068817,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9732948651702115,
+          "test_ap": 0.9766343965316082,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.8061359033360641,
+          "test_ap": 0.7534806782496614,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9772213086754201,
+          "test_ap": 0.9892132738899587,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 10.0,
+          "val_ap": 0.3656586569630048,
+          "test_ap": 0.5546471369562986,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    },
+    {
+      "model": "remoteclip_vit_b32_0k",
+      "checkpoint_name": "latest.pt",
+      "mAP": 0.7921697542574462,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9691777517227675,
+          "test_ap": 0.9748188831831059,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.7740852135523161,
+          "test_ap": 0.7102604562297999,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9442951547550311,
+          "test_ap": 0.9699553087215025,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 10.0,
+          "val_ap": 0.5103039916556812,
+          "test_ap": 0.5136443688953765,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    },
+    {
+      "model": "rgb_duplicate_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "mAP": 0.8003568496662565,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9716026709868872,
+          "test_ap": 0.9733963214576045,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.7187210900691169,
+          "test_ap": 0.7448576191815316,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9689928589771876,
+          "test_ap": 0.9854231920550854,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 10.0,
+          "val_ap": 0.36552295441184335,
+          "test_ap": 0.49775026597080463,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    },
+    {
+      "model": "rgb_only_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "mAP": 0.79278157215605,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9699742807047438,
+          "test_ap": 0.9733665938465961,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.7309925541180187,
+          "test_ap": 0.7417737960235264,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9686124761270173,
+          "test_ap": 0.9857798674650466,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 10.0,
+          "val_ap": 0.39275854485124373,
+          "test_ap": 0.4702060312890309,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    },
+    {
+      "model": "trimodal_580k_seed2026",
+      "checkpoint_name": "latest.pt",
+      "mAP": 0.7665099563458752,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9697121959951702,
+          "test_ap": 0.9756912061225669,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.8044212018524081,
+          "test_ap": 0.799125153770896,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9778701151398939,
+          "test_ap": 0.9834899805699967,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 1.0,
+          "val_ap": 0.5266113516113516,
+          "test_ap": 0.307733484920041,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    },
+    {
+      "model": "trimodal_580k_seed3407",
+      "checkpoint_name": "latest.pt",
+      "mAP": 0.7968654980728971,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9690648890140449,
+          "test_ap": 0.9753591885569906,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.8089024418246294,
+          "test_ap": 0.7993561050281021,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9757946899705343,
+          "test_ap": 0.9827491585786751,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 10.0,
+          "val_ap": 0.5347153496276303,
+          "test_ap": 0.42999754012782065,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    },
+    {
+      "model": "trimodal_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "mAP": 0.8091988614649716,
+      "per_class": [
+        {
+          "class_name": "person",
+          "selected_C": 10.0,
+          "val_ap": 0.9668441390547888,
+          "test_ap": 0.9752568232418688,
+          "train_positives": 1165,
+          "val_positives": 171,
+          "test_positives": 355
+        },
+        {
+          "class_name": "bicycle",
+          "selected_C": 10.0,
+          "val_ap": 0.790446953602269,
+          "test_ap": 0.7980735909644618,
+          "train_positives": 321,
+          "val_positives": 53,
+          "test_positives": 86
+        },
+        {
+          "class_name": "car",
+          "selected_C": 10.0,
+          "val_ap": 0.9759896376592371,
+          "test_ap": 0.9859815912366509,
+          "train_positives": 995,
+          "val_positives": 136,
+          "test_positives": 267
+        },
+        {
+          "class_name": "other vehicle",
+          "selected_C": 10.0,
+          "val_ap": 0.5443211710885012,
+          "test_ap": 0.47748344041690466,
+          "train_positives": 79,
+          "val_positives": 9,
+          "test_positives": 21
+        }
+      ]
+    }
+  ]
+}

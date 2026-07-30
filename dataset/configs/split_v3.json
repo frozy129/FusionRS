@@ -1,0 +1,36 @@
+{
+  "name": "rgb_ir_phash64_radius4_caption_balanced_joint_group_split",
+  "version": "3",
+  "targets": {
+    "train": 580000,
+    "val": 10000,
+    "test": 10000
+  },
+  "source_minimum_per_heldout_split": 500,
+  "joint_grouping": {
+    "rgb_image": {
+      "hash": "pHash64",
+      "maximum_hamming_distance": 4
+    },
+    "infrared_style_image": {
+      "exact_content_hash": "SHA-256",
+      "perceptual_hash": "pHash64",
+      "maximum_hamming_distance": 4
+    },
+    "caption": {
+      "normalization": "Unicode NFKC, casefold, punctuation removal, whitespace collapse"
+    },
+    "assignment_rule": "Every connected RGB, infrared-style, or normalized-caption component is assigned wholly to one split.",
+    "cross_split_joint_groups_allowed": 0
+  },
+  "protected_training_flags": [
+    "VLM_train_used",
+    "prior_reused_protected"
+  ],
+  "evaluation": {
+    "one_representative_per_joint_component": true,
+    "val_representatives": 9538,
+    "test_representatives": 9553,
+    "benchmark_unique_joint_groups_required": true
+  }
+}

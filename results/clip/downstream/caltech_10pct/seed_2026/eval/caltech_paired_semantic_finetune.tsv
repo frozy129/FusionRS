@@ -1,0 +1,8 @@
+model	best_epoch	val_mAP	test_mAP	evaluated_classes
+openai_clip_vit_b32_0k	7	92.5851	91.9253	10
+joint_trimodal_580k	7	93.4724	91.5614	10
+joint_dual_text_580k	7	93.3996	91.7703	10
+joint_grayscale_580k	7	92.6013	91.5060	10
+joint_rgb_duplicate_580k	9	92.9920	91.9638	10
+remoteclip_vit_b32_0k	12	92.4548	92.5487	10
+georsclip_vit_b32_0k	6	92.6951	91.6478	10

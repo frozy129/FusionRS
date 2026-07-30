@@ -1,0 +1,111 @@
+{
+  "caption": {
+    "by_task": {
+      "ir_observable_description": {
+        "average_words": 17.3567,
+        "empty_rate": 0.0,
+        "exact_reference_copy_rate": 0.0,
+        "generic_failure_rate": 0.0,
+        "images": 499,
+        "ir_cue_rate": 0.19438877755511022,
+        "long_output_rate_ge_25": 0.09418837675350701,
+        "most_common_prediction_rate": 0.08817635270541083,
+        "rgb_color_term_rate": 0.0,
+        "rows": 499,
+        "short_output_rate_le_15": 0.45691382765531063,
+        "unique_prediction_rate": 0.6072144288577155,
+        "unsupported_physical_claim_rate": 0.0
+      },
+      "semantic_description": {
+        "average_words": 28.4228,
+        "empty_rate": 0.0,
+        "exact_reference_copy_rate": 0.0,
+        "generic_failure_rate": 0.0,
+        "images": 499,
+        "ir_cue_rate": 0.8557114228456913,
+        "long_output_rate_ge_25": 0.5851703406813628,
+        "most_common_prediction_rate": 0.03807615230460922,
+        "rgb_color_term_rate": 0.002004008016032064,
+        "rows": 499,
+        "short_output_rate_le_15": 0.028056112224448898,
+        "unique_prediction_rate": 0.7735470941883767,
+        "unsupported_physical_claim_rate": 0.0
+      }
+    },
+    "identical_across_prompts_rate": 0.004008016032064128,
+    "ir_cue_prompt_delta": -0.6613226452905812,
+    "length_prompt_delta": -11.066099999999999,
+    "overall": {
+      "average_words": 22.8898,
+      "empty_rate": 0.0,
+      "exact_reference_copy_rate": 0.0,
+      "generic_failure_rate": 0.0,
+      "images": 499,
+      "ir_cue_rate": 0.5250501002004008,
+      "long_output_rate_ge_25": 0.3396793587174349,
+      "most_common_prediction_rate": 0.04408817635270541,
+      "rgb_color_term_rate": 0.001002004008016032,
+      "rows": 998,
+      "short_output_rate_le_15": 0.24248496993987975,
+      "unique_prediction_rate": 0.688376753507014,
+      "unsupported_physical_claim_rate": 0.0
+    },
+    "paired_images": 499
+  },
+  "input_rows": 2991,
+  "model_tag": "geochat",
+  "vqa": {
+    "by_type": {
+      "intensity_contrast": {
+        "average_words": 5.122,
+        "empty_rate": 0.0,
+        "exact_accepted_answer_rate": 0.316,
+        "generic_failure_rate": 0.0,
+        "images": 500,
+        "rows": 500,
+        "short_answer_rate_le_5": 0.58,
+        "yes_no_format_rate": null
+      },
+      "object_presence": {
+        "average_words": 1.1546,
+        "empty_rate": 0.0,
+        "exact_accepted_answer_rate": 0.8072289156626506,
+        "generic_failure_rate": 0.0,
+        "images": 498,
+        "rows": 498,
+        "short_answer_rate_le_5": 0.9819277108433735,
+        "yes_no_format_rate": 0.9357429718875502
+      },
+      "scene_category": {
+        "average_words": 4.2303,
+        "empty_rate": 0.0,
+        "exact_accepted_answer_rate": 0.020202020202020204,
+        "generic_failure_rate": 0.0,
+        "images": 495,
+        "rows": 495,
+        "short_answer_rate_le_5": 0.7535353535353535,
+        "yes_no_format_rate": null
+      },
+      "spatial_structure": {
+        "average_words": 8.134,
+        "empty_rate": 0.0,
+        "exact_accepted_answer_rate": 0.018,
+        "generic_failure_rate": 0.0,
+        "images": 500,
+        "rows": 500,
+        "short_answer_rate_le_5": 0.422,
+        "yes_no_format_rate": null
+      }
+    },
+    "overall": {
+      "average_words": 4.6648,
+      "empty_rate": 0.0,
+      "exact_accepted_answer_rate": 0.2905168088309082,
+      "generic_failure_rate": 0.0,
+      "images": 500,
+      "rows": 1993,
+      "short_answer_rate_le_5": 0.6838936276969393,
+      "yes_no_format_rate": null
+    }
+  }
+}

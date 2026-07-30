@@ -1,0 +1,377 @@
+{
+  "title": "HIT-UAV real thermal object-presence zero-shot evaluation",
+  "checkpoint_name": "latest.pt",
+  "annotation_glob": "",
+  "num_samples": 2898,
+  "audit": {
+    "label_files": 3,
+    "missing_images": 0,
+    "skipped_annotations": 0,
+    "format_counts": {
+      "coco": 3
+    },
+    "duplicate_images": 0,
+    "num_samples": 2898,
+    "num_positive_samples": 2866,
+    "num_all_negative_samples": 32,
+    "positives_per_class": {
+      "person": 1691,
+      "bicycle": 460,
+      "car": 1398,
+      "other vehicle": 109
+    }
+  },
+  "created_at": "2026-07-27 04:12:11",
+  "results": [
+    {
+      "model": "openai_clip_vit_b32_0k",
+      "checkpoint_name": "pretrained-base",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.36469326877898656,
+      "top1_presence_hit": 0.45893719806763283,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.5192903578457644,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.167962414285411,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.7318992341877906,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.03962106879698027,
+          "positives": 109
+        }
+      ]
+    },
+    {
+      "model": "dual_text_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.3988277719411577,
+      "top1_presence_hit": 0.31746031746031744,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.7168055375887049,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.15424653758173404,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.6934371751777092,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.030821837416482627,
+          "positives": 109
+        }
+      ]
+    },
+    {
+      "model": "georsclip_vit_b32_0k",
+      "checkpoint_name": "latest.pt",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.3436326332917345,
+      "top1_presence_hit": 0.3778467908902691,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.6159916296292874,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.14484171660050102,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.5890124843526466,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.024684702584502893,
+          "positives": 109
+        }
+      ]
+    },
+    {
+      "model": "grayscale_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.39236495659673304,
+      "top1_presence_hit": 0.3295376121463078,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.7022951240020697,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.12992305755615235,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.7089492732363197,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.02829237159239043,
+          "positives": 109
+        }
+      ]
+    },
+    {
+      "model": "remoteclip_vit_b32_0k",
+      "checkpoint_name": "latest.pt",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.38712791220624126,
+      "top1_presence_hit": 0.4416839199447895,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.7075865219359846,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.1963715760604195,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.6036426287693356,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.04091092205922538,
+          "positives": 109
+        }
+      ]
+    },
+    {
+      "model": "rgb_duplicate_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.3705390235851266,
+      "top1_presence_hit": 0.3112491373360939,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.5329756237641373,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.14941310053286344,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.7672748702107922,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.032492499832713274,
+          "positives": 109
+        }
+      ]
+    },
+    {
+      "model": "rgb_only_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.37014523954120887,
+      "top1_presence_hit": 0.32643202208419597,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.5254094300363136,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.1530338121497113,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.7711912490779238,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.030946466900886746,
+          "positives": 109
+        }
+      ]
+    },
+    {
+      "model": "trimodal_580k_seed2026",
+      "checkpoint_name": "latest.pt",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.4111474003316631,
+      "top1_presence_hit": 0.4209799861973775,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.7170520604255988,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.17036656918733017,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.7295437923316792,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.02762717938204424,
+          "positives": 109
+        }
+      ]
+    },
+    {
+      "model": "trimodal_580k_seed3407",
+      "checkpoint_name": "latest.pt",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.40771539361137876,
+      "top1_presence_hit": 0.3657694962042788,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.7086041595440937,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.16111795176630433,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.7322604243506349,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.028879038784482062,
+          "positives": 109
+        }
+      ]
+    },
+    {
+      "model": "trimodal_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "num_samples": 2898,
+      "classes": [
+        "person",
+        "bicycle",
+        "car",
+        "other vehicle"
+      ],
+      "mAP": 0.40205813427855613,
+      "top1_presence_hit": 0.29296066252587993,
+      "per_class": [
+        {
+          "class_name": "person",
+          "ap": 0.7083890385912551,
+          "positives": 1691
+        },
+        {
+          "class_name": "bicycle",
+          "ap": 0.15051962811013928,
+          "positives": 460
+        },
+        {
+          "class_name": "car",
+          "ap": 0.719284428717923,
+          "positives": 1398
+        },
+        {
+          "class_name": "other vehicle",
+          "ap": 0.030039441694907094,
+          "positives": 109
+        }
+      ]
+    }
+  ]
+}

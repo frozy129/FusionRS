@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use FusionRS, please cite the FusionRS paper."
+title: "FusionRS: A Large-Scale RGB-Infrared Remote Sensing Dataset for Dual-Modal Vision-Language Foundation Models"
+type: dataset
+version: rc4
+date-released: 2026-07-27
+authors:
+  - given-names: Jiaju
+    family-names: Han
+  - given-names: Ben
+    family-names: Zhang
+  - given-names: Xuemeng
+    family-names: Sun
+  - given-names: Qike
+    family-names: Zhang
+  - given-names: Yuxian
+    family-names: Dong
+  - given-names: Dingyi
+    family-names: Lu
+  - given-names: Chengyin
+    family-names: Hu
+  - given-names: Luwei
+    family-names: Yang
+  - given-names: Fengyu
+    family-names: Zhang
+  - given-names: Yiwei
+    family-names: Wei
+  - given-names: Jiujiang
+    family-names: Guo
+license: MIT

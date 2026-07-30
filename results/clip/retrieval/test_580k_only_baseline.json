@@ -1,0 +1,388 @@
+{
+  "title": "580k-only CLIP baseline on clean held-out test",
+  "baseline_name": "joint_rgb_ir_phash4_caption_disjoint",
+  "selected_checkpoints": {
+    "base_0k": "latest.pt",
+    "dual_text_580k_seed42": "latest.pt",
+    "georsclip_vit_b32_0k": "latest.pt",
+    "grayscale_580k_seed42": "latest.pt",
+    "remoteclip_vit_b32_0k": "latest.pt",
+    "rgb_duplicate_580k_seed42": "latest.pt",
+    "rgb_only_580k_seed42": "latest.pt",
+    "trimodal_100k_seed42": "latest.pt",
+    "trimodal_300k_seed42": "latest.pt",
+    "trimodal_50k_seed42": "latest.pt",
+    "trimodal_580k_seed2026": "latest.pt",
+    "trimodal_580k_seed3407": "latest.pt",
+    "trimodal_580k_seed42": "latest.pt"
+  },
+  "num_samples": 9553,
+  "dropped_samples": 0,
+  "created_at": "2026-07-26 23:10:31",
+  "results": [
+    {
+      "model": "base_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.0642904497714505,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.011410028263372762,
+          "R@5": 0.02857741023762169,
+          "R@10": 0.04501203810321365
+        },
+        "original_caption->IR": {
+          "R@1": 0.013503611430964095,
+          "R@5": 0.04103423008479012,
+          "R@10": 0.061027949335287345
+        },
+        "RGB->IR": {
+          "R@1": 0.0843714016539307,
+          "R@5": 0.1615199413796713,
+          "R@10": 0.2007746257720088
+        },
+        "IR->RGB": {
+          "R@1": 0.021773264942949858,
+          "R@5": 0.04302313409400189,
+          "R@10": 0.05945776195959385
+        }
+      }
+    },
+    {
+      "model": "dual_text_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.5384870372308873,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.20977703339265152,
+          "R@5": 0.4518999267245891,
+          "R@10": 0.5664189259918351
+        },
+        "original_caption->IR": {
+          "R@1": 0.2083115251753376,
+          "R@5": 0.4428975191039464,
+          "R@10": 0.5645347011410028
+        },
+        "RGB->IR": {
+          "R@1": 0.5690359049513242,
+          "R@5": 0.7418611954359887,
+          "R@10": 0.8029938239296556
+        },
+        "IR->RGB": {
+          "R@1": 0.5066471265571025,
+          "R@5": 0.667643672144876,
+          "R@10": 0.7298230922223385
+        }
+      }
+    },
+    {
+      "model": "georsclip_vit_b32_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.09424613559440315,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.012561499005547995,
+          "R@5": 0.04030147597613315,
+          "R@10": 0.06228409923584215
+        },
+        "original_caption->IR": {
+          "R@1": 0.03328797236470219,
+          "R@5": 0.08510415576258767,
+          "R@10": 0.12006699466136292
+        },
+        "RGB->IR": {
+          "R@1": 0.12278865277923165,
+          "R@5": 0.22977075264314875,
+          "R@10": 0.2881817230189469
+        },
+        "IR->RGB": {
+          "R@1": 0.021354548309431592,
+          "R@5": 0.04898984612163718,
+          "R@10": 0.06626190725426567
+        }
+      }
+    },
+    {
+      "model": "grayscale_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.21248996824732194,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.04375588820265885,
+          "R@5": 0.12299801109599079,
+          "R@10": 0.17648906102794934
+        },
+        "original_caption->IR": {
+          "R@1": 0.07390348581597404,
+          "R@5": 0.17324400711818277,
+          "R@10": 0.23793572699675494
+        },
+        "RGB->IR": {
+          "R@1": 0.21501099131162985,
+          "R@5": 0.3475348058201612,
+          "R@10": 0.4176698419344708
+        },
+        "IR->RGB": {
+          "R@1": 0.16131058306291218,
+          "R@5": 0.26211661258243485,
+          "R@10": 0.3179106039987438
+        }
+      }
+    },
+    {
+      "model": "remoteclip_vit_b32_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.02990334624376287,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.002721658117868732,
+          "R@5": 0.007746257720087931,
+          "R@10": 0.014550403014759761
+        },
+        "original_caption->IR": {
+          "R@1": 0.002616978959489166,
+          "R@5": 0.010781953313095363,
+          "R@10": 0.01706270281586936
+        },
+        "RGB->IR": {
+          "R@1": 0.03737045954150529,
+          "R@5": 0.08039359363550717,
+          "R@10": 0.10719145818067623
+        },
+        "IR->RGB": {
+          "R@1": 0.012038103213650161,
+          "R@5": 0.027844656128964723,
+          "R@10": 0.03852193028368052
+        }
+      }
+    },
+    {
+      "model": "rgb_duplicate_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.14440489898461215,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.02522767716947556,
+          "R@5": 0.0699256777975505,
+          "R@10": 0.10520255417146446
+        },
+        "original_caption->IR": {
+          "R@1": 0.06050455354338951,
+          "R@5": 0.1417355804459332,
+          "R@10": 0.19909975923793571
+        },
+        "RGB->IR": {
+          "R@1": 0.16193865801318957,
+          "R@5": 0.2877630063854287,
+          "R@10": 0.3521406887888621
+        },
+        "IR->RGB": {
+          "R@1": 0.054851878990892916,
+          "R@5": 0.1170312990683555,
+          "R@10": 0.1574374542028682
+        }
+      }
+    },
+    {
+      "model": "rgb_only_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.14382044035032623,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.024390243902439025,
+          "R@5": 0.06982099863917095,
+          "R@10": 0.10761017481419449
+        },
+        "original_caption->IR": {
+          "R@1": 0.06039987438500995,
+          "R@5": 0.14047943054537843,
+          "R@10": 0.20014655082173138
+        },
+        "RGB->IR": {
+          "R@1": 0.16141526222129174,
+          "R@5": 0.28546006490107817,
+          "R@10": 0.3490003140374751
+        },
+        "IR->RGB": {
+          "R@1": 0.05652674552496598,
+          "R@5": 0.11504239505914372,
+          "R@10": 0.155553229352036
+        }
+      }
+    },
+    {
+      "model": "trimodal_100k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.5836037544924805,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.12425416099654558,
+          "R@5": 0.29781220558986704,
+          "R@10": 0.40448026797864545
+        },
+        "original_caption->IR": {
+          "R@1": 0.1207997487700199,
+          "R@5": 0.2926829268292683,
+          "R@10": 0.39233748560661574
+        },
+        "RGB->IR": {
+          "R@1": 0.8094839317491888,
+          "R@5": 0.9250497226002303,
+          "R@10": 0.9535224536794724
+        },
+        "IR->RGB": {
+          "R@1": 0.8105307233329844,
+          "R@5": 0.9223280644823616,
+          "R@10": 0.9499633622945671
+        }
+      }
+    },
+    {
+      "model": "trimodal_300k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6442478802470428,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.17512823196901497,
+          "R@5": 0.3917094106563383,
+          "R@10": 0.5041348267559929
+        },
+        "original_caption->IR": {
+          "R@1": 0.17135978226735057,
+          "R@5": 0.38103213650162254,
+          "R@10": 0.4950277399769706
+        },
+        "RGB->IR": {
+          "R@1": 0.8660106772741547,
+          "R@5": 0.9598032031822464,
+          "R@10": 0.9797969224327436
+        },
+        "IR->RGB": {
+          "R@1": 0.8732335392023448,
+          "R@5": 0.958233015806553,
+          "R@10": 0.9755050769391814
+        }
+      }
+    },
+    {
+      "model": "trimodal_50k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.5439041836770299,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.09640950486758086,
+          "R@5": 0.24735685125091594,
+          "R@10": 0.3448131477022925
+        },
+        "original_caption->IR": {
+          "R@1": 0.10059667120276353,
+          "R@5": 0.24693813461739766,
+          "R@10": 0.33581074008164974
+        },
+        "RGB->IR": {
+          "R@1": 0.7636344603789386,
+          "R@5": 0.8967863498377473,
+          "R@10": 0.9312257929446247
+        },
+        "IR->RGB": {
+          "R@1": 0.7564115984507485,
+          "R@5": 0.8871558672668272,
+          "R@10": 0.9197110855228724
+        }
+      }
+    },
+    {
+      "model": "trimodal_580k_seed2026",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6788181723018947,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.2086255626504763,
+          "R@5": 0.4518999267245891,
+          "R@10": 0.5672563592588715
+        },
+        "original_caption->IR": {
+          "R@1": 0.2007746257720088,
+          "R@5": 0.43776824034334766,
+          "R@10": 0.5568931225792945
+        },
+        "RGB->IR": {
+          "R@1": 0.8961582748874699,
+          "R@5": 0.9743536061970062,
+          "R@10": 0.9870197843609337
+        },
+        "IR->RGB": {
+          "R@1": 0.9046372867162148,
+          "R@5": 0.9738302104051083,
+          "R@10": 0.9866010677274155
+        }
+      }
+    },
+    {
+      "model": "trimodal_580k_seed3407",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6783732858787815,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.20339160473149795,
+          "R@5": 0.45116717261593214,
+          "R@10": 0.5654768135664189
+        },
+        "original_caption->IR": {
+          "R@1": 0.20182141735580447,
+          "R@5": 0.4375588820265885,
+          "R@10": 0.5593007432220245
+        },
+        "RGB->IR": {
+          "R@1": 0.8977284622631634,
+          "R@5": 0.9740395687218675,
+          "R@10": 0.9876478593112111
+        },
+        "IR->RGB": {
+          "R@1": 0.9040092117659374,
+          "R@5": 0.9723647021877944,
+          "R@10": 0.9859729927771381
+        }
+      }
+    },
+    {
+      "model": "trimodal_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6765675703967341,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.20286820893960011,
+          "R@5": 0.4444677064796399,
+          "R@10": 0.5646393802993824
+        },
+        "original_caption->IR": {
+          "R@1": 0.19826232597089918,
+          "R@5": 0.43399979064168326,
+          "R@10": 0.5560556893122579
+        },
+        "RGB->IR": {
+          "R@1": 0.8959489165707107,
+          "R@5": 0.9755050769391814,
+          "R@10": 0.988171255103109
+        },
+        "IR->RGB": {
+          "R@1": 0.8997173662723752,
+          "R@5": 0.9728880979796922,
+          "R@10": 0.9862870302522768
+        }
+      }
+    }
+  ]
+}

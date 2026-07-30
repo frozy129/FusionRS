@@ -1,0 +1,58 @@
+{
+  "base": {
+    "mixed_minus_baseline_pp": -1.4583,
+    "ci95": [
+      -2.8972,
+      0.0
+    ]
+  },
+  "original_only": {
+    "mixed_minus_baseline_pp": 0.8998,
+    "ci95": [
+      -0.2481,
+      2.0383
+    ]
+  },
+  "ir_aware_only": {
+    "mixed_minus_baseline_pp": 0.0621,
+    "ci95": [
+      -0.9001,
+      1.0821
+    ]
+  },
+  "h2rsvlm": {
+    "mixed_minus_baseline_pp": 3.0406,
+    "ci95": [
+      1.7023,
+      4.4356
+    ]
+  },
+  "llava15": {
+    "mixed_minus_baseline_pp": 2.6063,
+    "ci95": [
+      0.7417,
+      4.5201
+    ]
+  },
+  "llava16": {
+    "mixed_minus_baseline_pp": 2.0168,
+    "ci95": [
+      0.5262,
+      3.5182
+    ]
+  },
+  "geochat": {
+    "mixed_minus_baseline_pp": 9.5873,
+    "ci95": [
+      7.7505,
+      11.4739
+    ]
+  },
+  "instructblip": {
+    "mixed_minus_baseline_pp": 3.5681,
+    "ci95": [
+      2.1848,
+      4.9139
+    ]
+  }
+}

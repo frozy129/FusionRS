@@ -1,0 +1,7 @@
+{
+  "elapsed_seconds": 3172.892,
+  "expected": 2991,
+  "missing_or_error": 0,
+  "model_tag": "llava16_full",
+  "successful": 2991
+}

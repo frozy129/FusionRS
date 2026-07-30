@@ -1,0 +1,283 @@
+{
+  "created_at": "2026-07-27T05:01:38.474544+00:00",
+  "files": [
+    {
+      "bytes": 196273,
+      "path": "downstream/hit_uav/seed_42/eval/hit_uav_box_detection.json",
+      "rows": 7,
+      "sha256": "7143cd22fc6ad2e6829d5e01bee64c22b52979f2600a0aa67aa38878618553ab"
+    },
+    {
+      "bytes": 81233,
+      "path": "downstream/sirst_v2/seed_42/eval/sirst_v2_segmentation.json",
+      "rows": 7,
+      "sha256": "9c584aff7467b940ebf99d7d929cbf7ad3545f7cf2bf9e1f75ac089eb892b8da"
+    },
+    {
+      "bytes": 119330,
+      "path": "downstream/irstd1k/seed_42/eval/irstd1k_segmentation.json",
+      "rows": 7,
+      "sha256": "0dfdf58aa78ac0194c6a1caef8d61c28c5f4efadb66b53994a79754d7e96ed6a"
+    },
+    {
+      "bytes": 299927,
+      "path": "downstream/caltech_10pct/seed_42/eval/caltech_paired_semantic_finetune.json",
+      "rows": 7,
+      "sha256": "fdb80fed1e95c4d31b1081d10c5bd79e75b40db1e087797eedf50913afb2b5c2"
+    },
+    {
+      "bytes": 196500,
+      "path": "downstream/hit_uav/seed_3407/eval/hit_uav_box_detection.json",
+      "rows": 7,
+      "sha256": "519f493abd40daecb034fe0ae4056e4a222db17fcde8a70150f21e759cd3e46e"
+    },
+    {
+      "bytes": 81130,
+      "path": "downstream/sirst_v2/seed_3407/eval/sirst_v2_segmentation.json",
+      "rows": 7,
+      "sha256": "f7a68b427b9be3ca8627c032c29fa7f0d368f098a0abe11301bb13c569d40d35"
+    },
+    {
+      "bytes": 119362,
+      "path": "downstream/irstd1k/seed_3407/eval/irstd1k_segmentation.json",
+      "rows": 7,
+      "sha256": "658a4ebe129d1e1baf4a316188e077d843fcbff18d65a8303c1f0afcc5a33ed4"
+    },
+    {
+      "bytes": 299861,
+      "path": "downstream/caltech_10pct/seed_3407/eval/caltech_paired_semantic_finetune.json",
+      "rows": 7,
+      "sha256": "4967caab6ea1d100428480f7a5901ff9e81ae45ab9f099066f696fdd78e195b3"
+    },
+    {
+      "bytes": 196657,
+      "path": "downstream/hit_uav/seed_2026/eval/hit_uav_box_detection.json",
+      "rows": 7,
+      "sha256": "a1e4b724ecce7c4556f3fd987eaf790440fadd7b3a4c94f15e46a5d136f1d110"
+    },
+    {
+      "bytes": 81202,
+      "path": "downstream/sirst_v2/seed_2026/eval/sirst_v2_segmentation.json",
+      "rows": 7,
+      "sha256": "a5120c4730b8cbf1626ccb886f7b9af3f2fecc3d29daa21a96aa32d4d4a9beb8"
+    },
+    {
+      "bytes": 119290,
+      "path": "downstream/irstd1k/seed_2026/eval/irstd1k_segmentation.json",
+      "rows": 7,
+      "sha256": "3873002ff51980a28861c0ab577a9f7d83ef08c371de9daa70aff67c58d15223"
+    },
+    {
+      "bytes": 299833,
+      "path": "downstream/caltech_10pct/seed_2026/eval/caltech_paired_semantic_finetune.json",
+      "rows": 7,
+      "sha256": "015ffbf23d992fdb9994042c0bac6135b03b09846b606bc32cb6e81758d208a7"
+    },
+    {
+      "bytes": 4420,
+      "path": "downstream/caltech_pair/caltech_rgbt_retrieval.json",
+      "rows": 7,
+      "sha256": "55394b1762be6a28a7f1b767f098d2f4a53860a6bce4aba1bc5083a62f5bb469"
+    },
+    {
+      "bytes": 10194,
+      "path": "downstream/hit_language/zero_shot/hit_uav_object_presence.json",
+      "rows": 10,
+      "sha256": "d84b072e859a9dc6155dc70f18bc9d683b7359d92e5258c4d2f7fd98cae5c29f"
+    },
+    {
+      "bytes": 14908,
+      "path": "downstream/hit_language/linear_probe/hit_uav_linear_probe.json",
+      "rows": 10,
+      "sha256": "d5325a4c3ae89d2f2c0e23bfb843abf26bbeeaccd941669c362135266b306496"
+    },
+    {
+      "bytes": 8194,
+      "path": "capacity/eval/test_580k_only_baseline.json",
+      "rows": 8,
+      "sha256": "b69c9885a5ce5cade9768cad5527b02968e19059bbb59fa30fd51723083baf34"
+    },
+    {
+      "bytes": 4415,
+      "path": "multiclip/retrieval/test_580k_only_baseline.json",
+      "rows": 4,
+      "sha256": "d7b326908de39bb499e27eb78f56fc52e48a2f269c6dc738b57b40c9d3110b51"
+    },
+    {
+      "bytes": 2713,
+      "path": "multiclip/caltech_pair/caltech_rgbt_retrieval.json",
+      "rows": 4,
+      "sha256": "ec28bc166d51e9adafbb7afbcb7725af12a2be5ff0e6470af3d569fcc4b89959"
+    },
+    {
+      "bytes": 4498,
+      "path": "multiclip/hit_zero_shot/hit_uav_object_presence.json",
+      "rows": 4,
+      "sha256": "b3d00d41aef8236373857d498566f38cf4aad8b0d976a4dc2fc7518c26acf8cc"
+    },
+    {
+      "bytes": 2837702,
+      "path": "base.jsonl",
+      "rows": 2991,
+      "sha256": "a1aeef7b81fd0788ce9fb25363b66d7d78fe8dc0ddb4dd34dd9304fceb82ba64"
+    },
+    {
+      "bytes": 146,
+      "path": "base.summary.json",
+      "rows": 1,
+      "sha256": "3f48dc511654449f8185e01b381ce266d27467c8c641b3c4bca587e95c25b427"
+    },
+    {
+      "bytes": 5664,
+      "path": "base.metrics.json",
+      "rows": 1,
+      "sha256": "a405fa19bc022a7a28d232acff427396856144933d22bb490ed5e636dc1e2b35"
+    },
+    {
+      "bytes": 3003992,
+      "path": "original_only.jsonl",
+      "rows": 2991,
+      "sha256": "da61fd2219ed23be6dc362f7147c35ffd00dd79393981a6271dbdec40ffe54f1"
+    },
+    {
+      "bytes": 239,
+      "path": "original_only.summary.json",
+      "rows": 1,
+      "sha256": "28ea22388ec2734a142123ce4f4e4f73ea4ce707fc50ea53785796ff19e84fc8"
+    },
+    {
+      "bytes": 5602,
+      "path": "original_only.metrics.json",
+      "rows": 1,
+      "sha256": "70c4af00e45dcd9948718a025b328e5f21059b30e0ccd7d5037d7329f50fb486"
+    },
+    {
+      "bytes": 3228127,
+      "path": "ir_aware_only.jsonl",
+      "rows": 2991,
+      "sha256": "325f20932cd28a0a924cbde5621889d681a8fc50255bbabd5237df59ae144736"
+    },
+    {
+      "bytes": 232,
+      "path": "ir_aware_only.summary.json",
+      "rows": 1,
+      "sha256": "00e866fc20f8a205473ed5ee4e6d4a5993159178fa8cfed3102c8bd1ba0b0bbd"
+    },
+    {
+      "bytes": 5592,
+      "path": "ir_aware_only.metrics.json",
+      "rows": 1,
+      "sha256": "fc365fbdf74909b564750735a0a98550446300bba405e5725dad8e7d5c16934a"
+    },
+    {
+      "bytes": 3101631,
+      "path": "task_conditioned_mixed.jsonl",
+      "rows": 2991,
+      "sha256": "c68628eb7eea18333a4a583fe4230167ce2aecbf13d819f5caf77995a44f0345"
+    },
+    {
+      "bytes": 257,
+      "path": "task_conditioned_mixed.summary.json",
+      "rows": 1,
+      "sha256": "de1e4eff64425777b03be67be404630b65699cfc1d8ef767d829fa9075f28beb"
+    },
+    {
+      "bytes": 5673,
+      "path": "task_conditioned_mixed.metrics.json",
+      "rows": 1,
+      "sha256": "1cbcf068f807dca93dde7115fc5323bc5615ae275f4d2ec4512fcea590a1329a"
+    },
+    {
+      "bytes": 2605075,
+      "path": "h2rsvlm.jsonl",
+      "rows": 2991,
+      "sha256": "8c3bb539c28698a298e2cfec88f4263a4abb889c09d9a8783ed276b2654b2a08"
+    },
+    {
+      "bytes": 127,
+      "path": "h2rsvlm.summary.json",
+      "rows": 1,
+      "sha256": "e668312fb49da1a7470db04bade719ed43709177aa95bf31dad75fc453e6cd1f"
+    },
+    {
+      "bytes": 5664,
+      "path": "h2rsvlm.metrics.json",
+      "rows": 1,
+      "sha256": "3630aa6d7f8ccaee23de77f26a29a8a6a70dac07c0dad550d7b88cb22309de93"
+    },
+    {
+      "bytes": 2522998,
+      "path": "llava15.jsonl",
+      "rows": 2991,
+      "sha256": "fd458e1a3c2a0053b2bb593aa636032610970c1624f6c6a998f0c7d8d2a44ae3"
+    },
+    {
+      "bytes": 132,
+      "path": "llava15.summary.json",
+      "rows": 1,
+      "sha256": "624fa2c8c474a31b199f7eb7c75756397501aacfba31e52eff2062d6e1ba326f"
+    },
+    {
+      "bytes": 5683,
+      "path": "llava15.metrics.json",
+      "rows": 1,
+      "sha256": "8f5cc2ffe16cd41c5763a005b109ecf4ddcf674728b95160a02faf0cbaa6f28a"
+    },
+    {
+      "bytes": 2579740,
+      "path": "llava16.jsonl",
+      "rows": 2991,
+      "sha256": "0403fdd956f2e34f1e38330fcbf1942c04068b76a5cbc807a71633cfb6d04808"
+    },
+    {
+      "bytes": 132,
+      "path": "llava16.summary.json",
+      "rows": 1,
+      "sha256": "b5c268808f771229064155c6217b3a8ce56ec72886c5104d7a6850cf9c717a63"
+    },
+    {
+      "bytes": 5703,
+      "path": "llava16.metrics.json",
+      "rows": 1,
+      "sha256": "7cd1a701fc64efe9d433f2206cab07190cacb71ebed68dfeb7aeeda431973d2c"
+    },
+    {
+      "bytes": 2585633,
+      "path": "geochat.jsonl",
+      "rows": 2991,
+      "sha256": "b5df7c9b0e0d32592a086f2b9b1eeadfacf3fd35716610fdeb136967b3f60a72"
+    },
+    {
+      "bytes": 127,
+      "path": "geochat.summary.json",
+      "rows": 1,
+      "sha256": "c5718c9800306564363a7231393fa22da33a31c641f0220dcda7d3be0b576e6a"
+    },
+    {
+      "bytes": 5679,
+      "path": "geochat.metrics.json",
+      "rows": 1,
+      "sha256": "16169f555ab18e4cb48b7f3f57d8af6666445f7466b0a23fffc32f357fdf7ead"
+    },
+    {
+      "bytes": 2869389,
+      "path": "instructblip.jsonl",
+      "rows": 2991,
+      "sha256": "1f087275d7b697b8162f8b38c310d767d1ca9c84cb7f2d8694ef220362eabdc5"
+    },
+    {
+      "bytes": 154,
+      "path": "instructblip.summary.json",
+      "rows": 1,
+      "sha256": "2178a39c17bc34c3fd47e75e980268f38b5f570f1fa3c95ba8c5c8cfdddf9431"
+    },
+    {
+      "bytes": 5667,
+      "path": "instructblip.metrics.json",
+      "rows": 1,
+      "sha256": "a66645328a79319add0cd6fa311bac8aa99773766f1aec30261b08ce4cb35190"
+    }
+  ],
+  "status": "valid",
+  "validated_file_count": 46
+}

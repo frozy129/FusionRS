@@ -1,0 +1,107 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "fusionrs-public-record-v1.schema.json",
+  "title": "FusionRS public redacted index record",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "schema_version",
+    "sample_id",
+    "source_dataset",
+    "source_record_id",
+    "source_locator",
+    "source_rights_code",
+    "split",
+    "joint_group_id",
+    "phash4_component_id",
+    "canonical_component_representative",
+    "is_canonical_component_representative",
+    "is_eval_representative",
+    "caption_supervision_available_upstream",
+    "vlm_train_identity",
+    "prior_reused_protected",
+    "translation"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "fusionrs-public-index-v1"
+    },
+    "sample_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_dataset": {
+      "enum": ["NWPU", "RS5M", "RSICD", "RSITMD", "SkyScript"]
+    },
+    "source_record_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "source_locator": {
+      "type": "string",
+      "minLength": 1,
+      "not": {
+        "anyOf": [
+          {
+            "pattern": "^(?:/|[A-Za-z]:\\\\)"
+          },
+          {
+            "pattern": "(?:^|/)\\.\\.(?:/|$)"
+          }
+        ]
+      }
+    },
+    "source_rights_code": {
+      "type": "string",
+      "minLength": 1
+    },
+    "split": {
+      "enum": ["train", "val", "test"]
+    },
+    "joint_group_id": {
+      "type": "string",
+      "pattern": "^joint-group:[0-9a-f]{24}$"
+    },
+    "phash4_component_id": {
+      "type": "string",
+      "minLength": 1
+    },
+    "canonical_component_representative": {
+      "type": "string",
+      "minLength": 1
+    },
+    "is_canonical_component_representative": {
+      "type": "boolean"
+    },
+    "is_eval_representative": {
+      "type": "boolean"
+    },
+    "caption_supervision_available_upstream": {
+      "type": "boolean"
+    },
+    "vlm_train_identity": {
+      "type": "boolean"
+    },
+    "prior_reused_protected": {
+      "type": "boolean"
+    },
+    "translation": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["model", "output_key", "redistribution"],
+      "properties": {
+        "model": {
+          "const": "DiffV2IR"
+        },
+        "output_key": {
+          "type": "string",
+          "minLength": 1
+        },
+        "redistribution": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,59 @@
+# CLIP checkpoint selection on clean held-out val
+
+- val_pair_jsonl: `<machine-local-path-removed>`
+- samples: 9538
+
+| model | checkpoint | Mean Recall | direction | R@1 | R@5 | R@10 |
+|---|---:|---:|---:|---:|---:|---:|
+| base_0k | latest.pt | 6.3527 | IR->original_caption | 0.9226 | 2.8727 | 4.0260 |
+| base_0k | latest.pt | 6.3527 | original_caption->IR | 1.4259 | 3.9736 | 6.0075 |
+| base_0k | latest.pt | 6.3527 | RGB->IR | 8.1464 | 15.7685 | 19.7106 |
+| base_0k | latest.pt | 6.3527 | IR->RGB | 2.5058 | 4.7599 | 6.1124 |
+| dual_text_580k_seed42 | latest.pt | 53.2318 | IR->original_caption | 20.3187 | 44.7159 | 56.0495 |
+| dual_text_580k_seed42 | latest.pt | 53.2318 | original_caption->IR | 20.3921 | 43.6570 | 55.1688 |
+| dual_text_580k_seed42 | latest.pt | 53.2318 | RGB->IR | 56.6576 | 73.7681 | 79.7337 |
+| dual_text_580k_seed42 | latest.pt | 53.2318 | IR->RGB | 50.2621 | 65.9992 | 72.0591 |
+| georsclip_vit_b32_0k | latest.pt | 9.1738 | IR->original_caption | 1.3001 | 3.9631 | 6.0390 |
+| georsclip_vit_b32_0k | latest.pt | 9.1738 | original_caption->IR | 3.1873 | 7.9052 | 11.4175 |
+| georsclip_vit_b32_0k | latest.pt | 9.1738 | RGB->IR | 12.1828 | 22.4995 | 28.0772 |
+| georsclip_vit_b32_0k | latest.pt | 9.1738 | IR->RGB | 2.1808 | 4.6655 | 6.6681 |
+| grayscale_580k_seed42 | latest.pt | 20.9985 | IR->original_caption | 4.4978 | 11.9417 | 17.1524 |
+| grayscale_580k_seed42 | latest.pt | 20.9985 | original_caption->IR | 7.2971 | 17.2678 | 23.6003 |
+| grayscale_580k_seed42 | latest.pt | 20.9985 | RGB->IR | 21.6398 | 34.9130 | 40.9939 |
+| grayscale_580k_seed42 | latest.pt | 20.9985 | IR->RGB | 15.5274 | 26.0327 | 31.1176 |
+| remoteclip_vit_b32_0k | latest.pt | 3.0317 | IR->original_caption | 0.3040 | 0.9226 | 1.6670 |
+| remoteclip_vit_b32_0k | latest.pt | 3.0317 | original_caption->IR | 0.4194 | 1.2267 | 1.9606 |
+| remoteclip_vit_b32_0k | latest.pt | 3.0317 | RGB->IR | 3.6590 | 7.9052 | 10.7465 |
+| remoteclip_vit_b32_0k | latest.pt | 3.0317 | IR->RGB | 1.1847 | 2.5896 | 3.7953 |
+| rgb_duplicate_580k_seed42 | latest.pt | 14.3147 | IR->original_caption | 2.4009 | 6.9302 | 10.5053 |
+| rgb_duplicate_580k_seed42 | latest.pt | 14.3147 | original_caption->IR | 5.5567 | 13.9966 | 19.5743 |
+| rgb_duplicate_580k_seed42 | latest.pt | 14.3147 | RGB->IR | 15.8838 | 28.3812 | 34.8501 |
+| rgb_duplicate_580k_seed42 | latest.pt | 14.3147 | IR->RGB | 5.7979 | 11.9207 | 15.9782 |
+| rgb_only_580k_seed42 | latest.pt | 14.2920 | IR->original_caption | 2.4114 | 6.9092 | 10.3900 |
+| rgb_only_580k_seed42 | latest.pt | 14.2920 | original_caption->IR | 5.7245 | 13.8394 | 19.7211 |
+| rgb_only_580k_seed42 | latest.pt | 14.2920 | RGB->IR | 16.0411 | 28.5385 | 34.6509 |
+| rgb_only_580k_seed42 | latest.pt | 14.2920 | IR->RGB | 5.6720 | 11.7635 | 15.8419 |
+| trimodal_100k_seed42 | latest.pt | 57.9873 | IR->original_caption | 11.8473 | 29.6498 | 40.3334 |
+| trimodal_100k_seed42 | latest.pt | 57.9873 | original_caption->IR | 11.8893 | 28.8530 | 39.4422 |
+| trimodal_100k_seed42 | latest.pt | 57.9873 | RGB->IR | 79.9748 | 92.1787 | 95.0619 |
+| trimodal_100k_seed42 | latest.pt | 57.9873 | IR->RGB | 80.4886 | 91.5915 | 94.5376 |
+| trimodal_300k_seed42 | latest.pt | 64.0709 | IR->original_caption | 16.8065 | 39.0229 | 50.3250 |
+| trimodal_300k_seed42 | latest.pt | 64.0709 | original_caption->IR | 16.6387 | 37.0937 | 49.2766 |
+| trimodal_300k_seed42 | latest.pt | 64.0709 | RGB->IR | 86.1921 | 95.6490 | 97.5886 |
+| trimodal_300k_seed42 | latest.pt | 64.0709 | IR->RGB | 86.9469 | 95.7748 | 97.5362 |
+| trimodal_50k_seed42 | latest.pt | 54.0933 | IR->original_caption | 9.8763 | 24.5649 | 34.0847 |
+| trimodal_50k_seed42 | latest.pt | 54.0933 | original_caption->IR | 9.7610 | 24.5544 | 33.9589 |
+| trimodal_50k_seed42 | latest.pt | 54.0933 | RGB->IR | 75.7077 | 89.2325 | 92.8182 |
+| trimodal_50k_seed42 | latest.pt | 54.0933 | IR->RGB | 74.9109 | 88.1002 | 91.5496 |
+| trimodal_580k_seed2026 | latest.pt | 67.4818 | IR->original_caption | 20.2663 | 44.3489 | 56.0285 |
+| trimodal_580k_seed2026 | latest.pt | 67.4818 | original_caption->IR | 19.7840 | 42.8182 | 55.0744 |
+| trimodal_580k_seed2026 | latest.pt | 67.4818 | RGB->IR | 89.8406 | 97.0958 | 98.5636 |
+| trimodal_580k_seed2026 | latest.pt | 67.4818 | IR->RGB | 90.1027 | 97.3055 | 98.5532 |
+| trimodal_580k_seed3407 | latest.pt | 67.4923 | IR->original_caption | 20.2768 | 44.6425 | 55.7874 |
+| trimodal_580k_seed3407 | latest.pt | 67.4923 | original_caption->IR | 19.7211 | 43.1222 | 55.0954 |
+| trimodal_580k_seed3407 | latest.pt | 67.4923 | RGB->IR | 89.4422 | 97.0434 | 98.5112 |
+| trimodal_580k_seed3407 | latest.pt | 67.4923 | IR->RGB | 90.4592 | 97.3055 | 98.5007 |
+| trimodal_580k_seed42 | latest.pt | 67.3918 | IR->original_caption | 20.2034 | 44.0134 | 56.0285 |
+| trimodal_580k_seed42 | latest.pt | 67.3918 | original_caption->IR | 19.9832 | 43.0908 | 54.8123 |
+| trimodal_580k_seed42 | latest.pt | 67.3918 | RGB->IR | 89.5680 | 96.9910 | 98.4588 |
+| trimodal_580k_seed42 | latest.pt | 67.3918 | IR->RGB | 90.0084 | 97.1378 | 98.4064 |

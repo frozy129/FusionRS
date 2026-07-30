@@ -1,0 +1,43 @@
+{
+  "redacted_fields": [
+    "caption",
+    "caption_usable",
+    "class_name",
+    "normalized_caption_key"
+  ],
+  "rights_code_counts": {
+    "nwpu-captions-text-unlicensed": 31186,
+    "rs5m-item-rights-unconfirmed": 488033,
+    "rsicd-redistribution-license-not-located": 10824,
+    "rsitmd-redistribution-license-not-located": 4691,
+    "skyscript-brandenburg-dl-de-by-2.0": 9332,
+    "skyscript-finland-nls-cc-by-4.0": 2703,
+    "skyscript-landsat8-public-domain": 575,
+    "skyscript-landsat9-public-domain": 118,
+    "skyscript-naip-public-domain": 24938,
+    "skyscript-pnoa-cc-by-4.0": 1280,
+    "skyscript-sentinel-copernicus-notice": 6950,
+    "skyscript-skysat-multispectral-cc-by-4.0": 172,
+    "skyscript-skysat-rgb-cc-by-4.0": 653,
+    "skyscript-swissimage-source-reference": 18545
+  },
+  "rows": 600000,
+  "schema_version": "fusionrs-public-index-summary-v1",
+  "source_split_counts": {
+    "NWPU:test": 536,
+    "NWPU:train": 30094,
+    "NWPU:val": 556,
+    "RS5M:test": 7681,
+    "RS5M:train": 472682,
+    "RS5M:val": 7670,
+    "RSICD:test": 725,
+    "RSICD:train": 9383,
+    "RSICD:val": 716,
+    "RSITMD:test": 500,
+    "RSITMD:train": 3691,
+    "RSITMD:val": 500,
+    "SkyScript:test": 558,
+    "SkyScript:train": 64150,
+    "SkyScript:val": 558
+  }
+}

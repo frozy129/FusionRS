@@ -1,0 +1,7 @@
+accelerate>=1.2,<2
+bitsandbytes>=0.45,<1
+numpy>=1.26,<3
+peft>=0.14,<1
+qwen-vl-utils>=0.0.10,<1
+torch>=2.5,<3
+transformers>=4.57,<6

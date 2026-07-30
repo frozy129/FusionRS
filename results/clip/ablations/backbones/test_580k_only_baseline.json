@@ -1,0 +1,127 @@
+{
+  "title": "580k-only CLIP baseline on clean held-out test",
+  "baseline_name": "joint_multiclip_rc4",
+  "selected_checkpoints": {
+    "georsclip_0k": "latest.pt",
+    "georsclip_fusionrs_580k_seed42": "latest.pt",
+    "remoteclip_0k": "latest.pt",
+    "remoteclip_fusionrs_580k_seed42": "latest.pt"
+  },
+  "num_samples": 9553,
+  "dropped_samples": 0,
+  "created_at": "2026-07-27 04:25:29",
+  "results": [
+    {
+      "model": "georsclip_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.09424613559440315,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.012561499005547995,
+          "R@5": 0.04030147597613315,
+          "R@10": 0.06228409923584215
+        },
+        "original_caption->IR": {
+          "R@1": 0.03328797236470219,
+          "R@5": 0.08510415576258767,
+          "R@10": 0.12006699466136292
+        },
+        "RGB->IR": {
+          "R@1": 0.12278865277923165,
+          "R@5": 0.22977075264314875,
+          "R@10": 0.2881817230189469
+        },
+        "IR->RGB": {
+          "R@1": 0.021354548309431592,
+          "R@5": 0.04898984612163718,
+          "R@10": 0.06626190725426567
+        }
+      }
+    },
+    {
+      "model": "georsclip_fusionrs_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6908475522523466,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.2315502983356014,
+          "R@5": 0.4750340207264734,
+          "R@10": 0.5957290903381137
+        },
+        "original_caption->IR": {
+          "R@1": 0.22464147388254999,
+          "R@5": 0.4643567465717576,
+          "R@10": 0.5864126452423323
+        },
+        "RGB->IR": {
+          "R@1": 0.8924945043441851,
+          "R@5": 0.9734114937715901,
+          "R@10": 0.9864963885690359
+        },
+        "IR->RGB": {
+          "R@1": 0.9004501203810321,
+          "R@5": 0.9735161729299696,
+          "R@10": 0.9860776719355177
+        }
+      }
+    },
+    {
+      "model": "remoteclip_0k",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.02990334624376287,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.002721658117868732,
+          "R@5": 0.007746257720087931,
+          "R@10": 0.014550403014759761
+        },
+        "original_caption->IR": {
+          "R@1": 0.002616978959489166,
+          "R@5": 0.010781953313095363,
+          "R@10": 0.01706270281586936
+        },
+        "RGB->IR": {
+          "R@1": 0.03737045954150529,
+          "R@5": 0.08039359363550717,
+          "R@10": 0.10719145818067623
+        },
+        "IR->RGB": {
+          "R@1": 0.012038103213650161,
+          "R@5": 0.027844656128964723,
+          "R@10": 0.03852193028368052
+        }
+      }
+    },
+    {
+      "model": "remoteclip_fusionrs_580k_seed42",
+      "checkpoint_name": "latest.pt",
+      "text_retrieval_protocol": "normalized-caption multi-positive",
+      "mean_recall": 0.6712638263721692,
+      "metrics": {
+        "IR->original_caption": {
+          "R@1": 0.1973202135454831,
+          "R@5": 0.4363027321260337,
+          "R@10": 0.5531246728776301
+        },
+        "original_caption->IR": {
+          "R@1": 0.19114414320108866,
+          "R@5": 0.42007746257720086,
+          "R@10": 0.5394117031299068
+        },
+        "RGB->IR": {
+          "R@1": 0.895634879095572,
+          "R@5": 0.9733068146132106,
+          "R@10": 0.9855542761436198
+        },
+        "IR->RGB": {
+          "R@1": 0.9040092117659374,
+          "R@5": 0.9730974562964514,
+          "R@10": 0.9861823510938972
+        }
+      }
+    }
+  ]
+}

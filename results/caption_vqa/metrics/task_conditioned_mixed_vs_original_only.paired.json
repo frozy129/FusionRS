@@ -1,0 +1,172 @@
+{
+  "baseline": "original_only",
+  "candidate": "task_conditioned_mixed",
+  "caption": {
+    "by_task": {
+      "ir_observable_description": {
+        "lexical_f1": {
+          "candidate_minus_baseline": 8.4318,
+          "ci95": [
+            7.806,
+            9.0763
+          ],
+          "images": 499,
+          "rows": 499
+        },
+        "rouge_l": {
+          "candidate_minus_baseline": 1.7727,
+          "ci95": [
+            1.1678,
+            2.3294
+          ],
+          "images": 499,
+          "rows": 499
+        }
+      },
+      "semantic_description": {
+        "lexical_f1": {
+          "candidate_minus_baseline": 0.3892,
+          "ci95": [
+            -0.3582,
+            1.1113
+          ],
+          "images": 499,
+          "rows": 499
+        },
+        "rouge_l": {
+          "candidate_minus_baseline": 0.4768,
+          "ci95": [
+            -0.2138,
+            1.1754
+          ],
+          "images": 499,
+          "rows": 499
+        }
+      }
+    },
+    "overall": {
+      "lexical_f1": {
+        "candidate_minus_baseline": 4.4105,
+        "ci95": [
+          3.8784,
+          4.9156
+        ],
+        "images": 499,
+        "rows": 998
+      },
+      "rouge_l": {
+        "candidate_minus_baseline": 1.1247,
+        "ci95": [
+          0.6234,
+          1.5898
+        ],
+        "images": 499,
+        "rows": 998
+      }
+    }
+  },
+  "vqa": {
+    "by_type": {
+      "intensity_contrast": {
+        "exact_match": {
+          "candidate_minus_baseline": 2.2,
+          "ci95": [
+            1.0,
+            3.6
+          ],
+          "images": 500,
+          "rows": 500
+        },
+        "token_f1": {
+          "candidate_minus_baseline": 2.8442,
+          "ci95": [
+            1.1888,
+            4.5595
+          ],
+          "images": 500,
+          "rows": 500
+        }
+      },
+      "object_presence": {
+        "exact_match": {
+          "candidate_minus_baseline": 3.2129,
+          "ci95": [
+            1.8072,
+            4.8193
+          ],
+          "images": 498,
+          "rows": 498
+        },
+        "token_f1": {
+          "candidate_minus_baseline": 2.3974,
+          "ci95": [
+            0.7116,
+            4.0826
+          ],
+          "images": 498,
+          "rows": 498
+        }
+      },
+      "scene_category": {
+        "exact_match": {
+          "candidate_minus_baseline": 0.0,
+          "ci95": [
+            0.0,
+            0.0
+          ],
+          "images": 495,
+          "rows": 495
+        },
+        "token_f1": {
+          "candidate_minus_baseline": 0.8882,
+          "ci95": [
+            -0.0514,
+            1.8905
+          ],
+          "images": 495,
+          "rows": 495
+        }
+      },
+      "spatial_structure": {
+        "exact_match": {
+          "candidate_minus_baseline": 0.6,
+          "ci95": [
+            0.0,
+            1.4
+          ],
+          "images": 500,
+          "rows": 500
+        },
+        "token_f1": {
+          "candidate_minus_baseline": 0.7398,
+          "ci95": [
+            -0.5278,
+            2.1253
+          ],
+          "images": 500,
+          "rows": 500
+        }
+      }
+    },
+    "overall": {
+      "exact_match": {
+        "candidate_minus_baseline": 1.5053,
+        "ci95": [
+          1.002,
+          2.0583
+        ],
+        "images": 500,
+        "rows": 1993
+      },
+      "token_f1": {
+        "candidate_minus_baseline": 1.7188,
+        "ci95": [
+          0.9957,
+          2.4093
+        ],
+        "images": 500,
+        "rows": 1993
+      }
+    }
+  }
+}

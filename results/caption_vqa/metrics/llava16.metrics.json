@@ -1,0 +1,286 @@
+{
+  "caption": {
+    "by_source": {
+      "NWPU": {
+        "images": 100,
+        "lexical_f1": 12.5324,
+        "lexical_f1_ci95": [
+          11.0652,
+          13.8226
+        ],
+        "rouge_l": 20.6686,
+        "rouge_l_ci95": [
+          19.6138,
+          21.6855
+        ],
+        "rows": 200,
+        "successes": 200
+      },
+      "RS5M": {
+        "images": 100,
+        "lexical_f1": 18.3433,
+        "lexical_f1_ci95": [
+          16.6926,
+          20.0099
+        ],
+        "rouge_l": 26.7463,
+        "rouge_l_ci95": [
+          25.3753,
+          28.1575
+        ],
+        "rows": 200,
+        "successes": 200
+      },
+      "RSICD": {
+        "images": 100,
+        "lexical_f1": 14.3589,
+        "lexical_f1_ci95": [
+          12.6167,
+          16.1613
+        ],
+        "rouge_l": 22.4394,
+        "rouge_l_ci95": [
+          21.2626,
+          23.6722
+        ],
+        "rows": 200,
+        "successes": 200
+      },
+      "RSITMD": {
+        "images": 100,
+        "lexical_f1": 14.5925,
+        "lexical_f1_ci95": [
+          13.2546,
+          16.1765
+        ],
+        "rouge_l": 22.967,
+        "rouge_l_ci95": [
+          21.9509,
+          24.1764
+        ],
+        "rows": 200,
+        "successes": 200
+      },
+      "SkyScript": {
+        "images": 99,
+        "lexical_f1": 13.8753,
+        "lexical_f1_ci95": [
+          12.5615,
+          15.2701
+        ],
+        "rouge_l": 22.6924,
+        "rouge_l_ci95": [
+          21.681,
+          23.7656
+        ],
+        "rows": 198,
+        "successes": 198
+      }
+    },
+    "by_task": {
+      "ir_observable_description": {
+        "images": 499,
+        "lexical_f1": 12.3038,
+        "lexical_f1_ci95": [
+          11.6763,
+          12.9486
+        ],
+        "rouge_l": 20.3806,
+        "rouge_l_ci95": [
+          19.8749,
+          20.9287
+        ],
+        "rows": 499,
+        "successes": 499
+      },
+      "semantic_description": {
+        "images": 499,
+        "lexical_f1": 17.1807,
+        "lexical_f1_ci95": [
+          16.0311,
+          18.4422
+        ],
+        "rouge_l": 25.8265,
+        "rouge_l_ci95": [
+          24.8518,
+          26.7157
+        ],
+        "rows": 499,
+        "successes": 499
+      }
+    },
+    "overall": {
+      "images": 499,
+      "lexical_f1": 14.7422,
+      "lexical_f1_ci95": [
+        14.0498,
+        15.5264
+      ],
+      "rouge_l": 23.1036,
+      "rouge_l_ci95": [
+        22.5317,
+        23.6314
+      ],
+      "rows": 998,
+      "successes": 998
+    }
+  },
+  "input_rows": 2991,
+  "model_tag": "llava16_full",
+  "vqa": {
+    "by_source": {
+      "NWPU": {
+        "exact_match": 38.8471,
+        "exact_match_ci95": [
+          35.5,
+          42.1053
+        ],
+        "images": 100,
+        "rows": 399,
+        "successes": 399,
+        "token_f1": 46.8986,
+        "token_f1_ci95": [
+          43.2254,
+          50.1523
+        ]
+      },
+      "RS5M": {
+        "exact_match": 32.25,
+        "exact_match_ci95": [
+          28.7438,
+          35.75
+        ],
+        "images": 100,
+        "rows": 400,
+        "successes": 400,
+        "token_f1": 41.2488,
+        "token_f1_ci95": [
+          37.1298,
+          45.2742
+        ]
+      },
+      "RSICD": {
+        "exact_match": 35.0877,
+        "exact_match_ci95": [
+          31.3283,
+          38.5965
+        ],
+        "images": 100,
+        "rows": 399,
+        "successes": 399,
+        "token_f1": 43.56,
+        "token_f1_ci95": [
+          39.8964,
+          47.1559
+        ]
+      },
+      "RSITMD": {
+        "exact_match": 36.9347,
+        "exact_match_ci95": [
+          33.748,
+          40.0
+        ],
+        "images": 100,
+        "rows": 398,
+        "successes": 398,
+        "token_f1": 45.4454,
+        "token_f1_ci95": [
+          42.3869,
+          48.9067
+        ]
+      },
+      "SkyScript": {
+        "exact_match": 36.5239,
+        "exact_match_ci95": [
+          33.6663,
+          39.4472
+        ],
+        "images": 100,
+        "rows": 397,
+        "successes": 397,
+        "token_f1": 43.7155,
+        "token_f1_ci95": [
+          40.892,
+          46.3423
+        ]
+      }
+    },
+    "by_type": {
+      "intensity_contrast": {
+        "exact_match": 47.6,
+        "exact_match_ci95": [
+          43.2,
+          52.0
+        ],
+        "images": 500,
+        "rows": 500,
+        "successes": 500,
+        "token_f1": 53.8984,
+        "token_f1_ci95": [
+          49.7006,
+          57.9754
+        ]
+      },
+      "object_presence": {
+        "exact_match": 87.5502,
+        "exact_match_ci95": [
+          84.5382,
+          90.3665
+        ],
+        "images": 498,
+        "rows": 498,
+        "successes": 498,
+        "token_f1": 88.2798,
+        "token_f1_ci95": [
+          85.4667,
+          91.0181
+        ]
+      },
+      "scene_category": {
+        "exact_match": 5.2525,
+        "exact_match_ci95": [
+          3.2323,
+          7.2778
+        ],
+        "images": 495,
+        "rows": 495,
+        "successes": 495,
+        "token_f1": 17.4251,
+        "token_f1_ci95": [
+          14.7736,
+          20.1804
+        ]
+      },
+      "spatial_structure": {
+        "exact_match": 3.2,
+        "exact_match_ci95": [
+          1.8,
+          4.8
+        ],
+        "images": 500,
+        "rows": 500,
+        "successes": 500,
+        "token_f1": 16.9938,
+        "token_f1_ci95": [
+          14.6614,
+          19.4645
+        ]
+      }
+    },
+    "overall": {
+      "exact_match": 35.9257,
+      "exact_match_ci95": [
+        34.3512,
+        37.594
+      ],
+      "images": 500,
+      "rows": 1993,
+      "successes": 1993,
+      "token_f1": 44.172,
+      "token_f1_ci95": [
+        42.5229,
+        45.787
+      ]
+    }
+  }
+}

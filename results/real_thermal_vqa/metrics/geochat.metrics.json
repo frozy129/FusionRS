@@ -1,0 +1,95 @@
+{
+  "by_type": {
+    "dominant_object_class": {
+      "accuracy": 34.7979,
+      "accuracy_ci95": [
+        30.58,
+        38.8401
+      ],
+      "images": 569,
+      "parse_failure_rate": 0.0,
+      "rows": 569
+    },
+    "group_location": {
+      "accuracy": 37.5857,
+      "accuracy_ci95": [
+        33.7806,
+        41.2331
+      ],
+      "images": 571,
+      "parse_failure_rate": 0.0,
+      "rows": 729
+    },
+    "object_count": {
+      "accuracy": 17.6955,
+      "accuracy_ci95": [
+        14.8813,
+        20.4791
+      ],
+      "images": 571,
+      "parse_failure_rate": 0.0,
+      "rows": 729
+    },
+    "object_presence": {
+      "accuracy": 58.8629,
+      "accuracy_ci95": [
+        56.1359,
+        61.475
+      ],
+      "images": 567,
+      "parse_failure_rate": 0.0,
+      "rows": 1196
+    }
+  },
+  "confusion": {
+    "no->no": 216,
+    "no->yes": 382,
+    "yes->no": 110,
+    "yes->yes": 488
+  },
+  "model_tag": "geochat",
+  "overall": {
+    "accuracy": 40.4902,
+    "accuracy_ci95": [
+      38.6508,
+      42.3446
+    ],
+    "images": 579,
+    "parse_failure_rate": 0.0,
+    "rows": 3223
+  },
+  "presence_by_answer": {
+    "no": {
+      "accuracy": 36.1204,
+      "accuracy_ci95": [
+        31.9921,
+        40.1023
+      ],
+      "images": 491,
+      "parse_failure_rate": 0.0,
+      "rows": 598
+    },
+    "yes": {
+      "accuracy": 81.6054,
+      "accuracy_ci95": [
+        78.5705,
+        84.5524
+      ],
+      "images": 475,
+      "parse_failure_rate": 0.0,
+      "rows": 598
+    }
+  },
+  "presence_by_class": {
+    "null": {
+      "accuracy": 58.8629,
+      "accuracy_ci95": [
+        56.1359,
+        61.475
+      ],
+      "images": 567,
+      "parse_failure_rate": 0.0,
+      "rows": 1196
+    }
+  }
+}

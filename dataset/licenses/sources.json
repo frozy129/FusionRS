@@ -1,0 +1,122 @@
+{
+  "schema_version": "fusionrs-source-rights-v2",
+  "checked_on": "2026-07-27",
+  "review_status": "research_audit_not_legal_advice",
+  "default_policy": "index-only-no-image-bytes-no-uncleared-text",
+  "sources": {
+    "RS5M": {
+      "official_url": "https://github.com/om-ai-lab/RS5M",
+      "top_level_license": "MIT software license",
+      "top_level_license_covers_dataset_items": false,
+      "image_redistribution_allowed": null,
+      "translated_derivative_redistribution_allowed": null,
+      "source_caption_redistribution_allowed": null,
+      "generated_ir_caption_release": "blocked_pending_item_level_clearance",
+      "release_policy": "identifiers-and-reconstruction-metadata-only",
+      "fusionrs_records": 488033,
+      "note": "The collection aggregates heterogeneous upstream web and remote-sensing sources. The repository MIT text grants rights in software and associated documentation, not blanket rights in every collected image or caption."
+    },
+    "SkyScript": {
+      "official_url": "https://github.com/wangzhecheng/SkyScript",
+      "top_level_license": "MIT software license",
+      "top_level_license_covers_dataset_items": false,
+      "image_redistribution_allowed": "conditional_by_earth_engine_collection",
+      "translated_derivative_redistribution_allowed": "conditional_by_earth_engine_collection",
+      "source_caption_redistribution_allowed": "conditional_on_odbl_attribution_and_share_alike_analysis",
+      "generated_ir_caption_release": "blocked_until_row_level_provenance_and_notices_are_generated",
+      "release_policy": "identifiers-and-reconstruction-metadata-only",
+      "fusionrs_records": 65266,
+      "imagery_sources": {
+        "US_NAIP": {
+          "records": 24938,
+          "terms": "public domain; USDA credit requested"
+        },
+        "CH_SWISSIMAGE": {
+          "records": 18545,
+          "terms": "use, distribution, processing, and commercial use permitted with mandatory source reference"
+        },
+        "DE_Brandenburg": {
+          "records": 9332,
+          "terms": "dl-de/by-2-0; attribution, license URI, and modification marking required"
+        },
+        "Sentinel_2": {
+          "records": 6950,
+          "terms": "Copernicus terms; source notice and modified-data marking required"
+        },
+        "FI_NLS": {
+          "records": 2703,
+          "terms": "CC BY 4.0; licensor, dataset, and delivery-time attribution required"
+        },
+        "ES_PNOA": {
+          "records": 1280,
+          "terms": "CC BY 4.0; attribution and derivative marking required"
+        },
+        "SkySat_RGB": {
+          "records": 653,
+          "terms": "CC BY 4.0"
+        },
+        "Landsat_8": {
+          "records": 575,
+          "terms": "public domain; USGS source credit requested"
+        },
+        "SkySat_multispectral": {
+          "records": 172,
+          "terms": "CC BY 4.0"
+        },
+        "Landsat_9": {
+          "records": 118,
+          "terms": "public domain; USGS source credit requested"
+        }
+      },
+      "caption_provenance": {
+        "source": "OpenStreetMap semantic tags",
+        "license": "ODbL 1.0",
+        "note": "Attribution and database share-alike obligations require a separate release design; the repository MIT license does not replace them."
+      }
+    },
+    "NWPU-Captions": {
+      "official_url": "https://github.com/HaiyanHuang98/NWPU-Captions",
+      "base_image_source_url": "https://gcheng-nwpu.github.io/",
+      "base_image_license": "CC BY-NC 4.0",
+      "caption_repository_license": null,
+      "image_redistribution_allowed": "noncommercial_with_attribution_and_change_marking",
+      "translated_derivative_redistribution_allowed": "noncommercial_with_attribution_and_change_marking",
+      "source_caption_redistribution_allowed": null,
+      "generated_ir_caption_release": "blocked_pending_caption_rights_clearance",
+      "release_policy": "identifiers-and-reconstruction-metadata-only",
+      "fusionrs_records": 31186,
+      "note": "RESISC45 image terms do not automatically license the later NWPU-Captions text annotations. No explicit license was located in the official NWPU-Captions repository."
+    },
+    "RSICD": {
+      "official_url": "https://github.com/201528014227051/RSICD_optimal",
+      "reported_license": null,
+      "image_redistribution_allowed": null,
+      "translated_derivative_redistribution_allowed": null,
+      "source_caption_redistribution_allowed": null,
+      "generated_ir_caption_release": "blocked_pending_written_permission",
+      "release_policy": "identifiers-and-reconstruction-metadata-only",
+      "fusionrs_records": 10824,
+      "note": "No explicit dataset redistribution or derivative-work license was located. The README identifies third-party imagery sources."
+    },
+    "RSITMD": {
+      "official_url": "https://github.com/xiaoyuan1996/AMFMN/tree/master/RSITMD",
+      "reported_license": null,
+      "image_redistribution_allowed": null,
+      "translated_derivative_redistribution_allowed": null,
+      "source_caption_redistribution_allowed": null,
+      "generated_ir_caption_release": "blocked_pending_written_permission",
+      "release_policy": "identifiers-and-reconstruction-metadata-only",
+      "fusionrs_records": 4691,
+      "note": "The README permits access and download but does not provide an explicit redistribution or derivative-work license."
+    }
+  },
+  "external_benchmarks": {
+    "HIT-UAV": {
+      "official_url": "https://github.com/suojiashun/HIT-UAV-Infrared-Thermal-Dataset",
+      "reported_license": "CC BY 4.0",
+      "image_redistribution_allowed": true,
+      "release_policy": "annotation-index-only",
+      "note": "FusionRS still defaults to distributing identifiers and annotations rather than third-party image bytes."
+    }
+  }
+}

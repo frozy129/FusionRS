@@ -1,0 +1,41 @@
+model	checkpoint_name	class_name	ap	positives
+openai_clip_vit_b32_0k	pretrained-base	person	51.9290	1691
+openai_clip_vit_b32_0k	pretrained-base	bicycle	16.7962	460
+openai_clip_vit_b32_0k	pretrained-base	car	73.1899	1398
+openai_clip_vit_b32_0k	pretrained-base	other vehicle	3.9621	109
+dual_text_580k_seed42	latest.pt	person	71.6806	1691
+dual_text_580k_seed42	latest.pt	bicycle	15.4247	460
+dual_text_580k_seed42	latest.pt	car	69.3437	1398
+dual_text_580k_seed42	latest.pt	other vehicle	3.0822	109
+georsclip_vit_b32_0k	latest.pt	person	61.5992	1691
+georsclip_vit_b32_0k	latest.pt	bicycle	14.4842	460
+georsclip_vit_b32_0k	latest.pt	car	58.9012	1398
+georsclip_vit_b32_0k	latest.pt	other vehicle	2.4685	109
+grayscale_580k_seed42	latest.pt	person	70.2295	1691
+grayscale_580k_seed42	latest.pt	bicycle	12.9923	460
+grayscale_580k_seed42	latest.pt	car	70.8949	1398
+grayscale_580k_seed42	latest.pt	other vehicle	2.8292	109
+remoteclip_vit_b32_0k	latest.pt	person	70.7587	1691
+remoteclip_vit_b32_0k	latest.pt	bicycle	19.6372	460
+remoteclip_vit_b32_0k	latest.pt	car	60.3643	1398
+remoteclip_vit_b32_0k	latest.pt	other vehicle	4.0911	109
+rgb_duplicate_580k_seed42	latest.pt	person	53.2976	1691
+rgb_duplicate_580k_seed42	latest.pt	bicycle	14.9413	460
+rgb_duplicate_580k_seed42	latest.pt	car	76.7275	1398
+rgb_duplicate_580k_seed42	latest.pt	other vehicle	3.2492	109
+rgb_only_580k_seed42	latest.pt	person	52.5409	1691
+rgb_only_580k_seed42	latest.pt	bicycle	15.3034	460
+rgb_only_580k_seed42	latest.pt	car	77.1191	1398
+rgb_only_580k_seed42	latest.pt	other vehicle	3.0946	109
+trimodal_580k_seed2026	latest.pt	person	71.7052	1691
+trimodal_580k_seed2026	latest.pt	bicycle	17.0367	460
+trimodal_580k_seed2026	latest.pt	car	72.9544	1398
+trimodal_580k_seed2026	latest.pt	other vehicle	2.7627	109
+trimodal_580k_seed3407	latest.pt	person	70.8604	1691
+trimodal_580k_seed3407	latest.pt	bicycle	16.1118	460
+trimodal_580k_seed3407	latest.pt	car	73.2260	1398
+trimodal_580k_seed3407	latest.pt	other vehicle	2.8879	109
+trimodal_580k_seed42	latest.pt	person	70.8389	1691
+trimodal_580k_seed42	latest.pt	bicycle	15.0520	460
+trimodal_580k_seed42	latest.pt	car	71.9284	1398
+trimodal_580k_seed42	latest.pt	other vehicle	3.0039	109
