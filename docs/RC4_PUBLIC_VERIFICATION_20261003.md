@@ -4,7 +4,7 @@ Verification date: 2026-10-03 (Asia/Shanghai)
 
 ## Public revisions
 
-- Main repository: `frozy129/FusionRS`, commit `21e1d15296558b67cbda1df6b1eb7c65e14432f4`.
+- Main repository verification tag: `v1.0.0-rc4-main` (immutable commit recorded below).
 - Model release: [`FusionRS-CLIP v1.0.0-rc4`](https://github.com/frozy129/FusionRS-CLIP/releases/tag/v1.0.0-rc4), commit `f776df3472753dddbb3a53379504cbf08beb62b1`.
 
 ## Reproducibility checks
