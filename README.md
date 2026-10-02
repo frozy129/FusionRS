@@ -14,7 +14,7 @@ FusionRS provides resources for RGB–infrared-style remote-sensing vision-langu
 
 ## Release layout
 
-GitHub hosts source code, documentation, compact manifests, and auditable results. Large dataset assets and model weights are prepared for separate Hugging Face dataset/model repositories. This avoids duplicating large binaries in Git history and keeps versioning explicit.
+GitHub hosts source code, documentation, compact manifests, and auditable results. The verified RC4 CLIP model package, including its portable weights and IR-aware caption manifest, is publicly available at [FusionRS-CLIP v1.0.0-rc4](https://github.com/frozy129/FusionRS-CLIP/releases/tag/v1.0.0-rc4). Large dataset assets remain governed by their source licenses and are distributed through the documented index and reconstruction path.
 
 The current public dataset package is the rights-cleared metadata release: public identifiers, split/group metadata, reconstruction configuration, checksums, and documentation. Third-party source imagery and generated image bytes are not redistributed through this repository. See [`dataset/PUBLIC_UPLOAD_ALLOWLIST_20260727.md`](dataset/PUBLIC_UPLOAD_ALLOWLIST_20260727.md).
 

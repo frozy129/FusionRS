@@ -10,7 +10,7 @@
 - [`models/`](models/)：模型卡、加载配置、文件大小与 SHA-256。
 - [`benchmark/`](benchmark/)：固定 Caption/VQA 清单、真实热红外 VQA、标注来源、评测协议及 scorer。
 
-GitHub 保存代码、文档、小型 manifest 和可审计结果；完整数据资产与模型权重单独通过 Hugging Face 发布。当前可公开的数据部分为已经通过权利检查的元数据、固定划分、重建配置和校验和，不在 GitHub 重新分发第三方原始图像或生成图像文件。
+GitHub 保存代码、文档、小型 manifest 和可审计结果。经过核验的 RC4 CLIP 模型包（包括可加载权重和 IR-aware caption manifest）已公开发布在 [FusionRS-CLIP v1.0.0-rc4](https://github.com/frozy129/FusionRS-CLIP/releases/tag/v1.0.0-rc4)。完整数据资产仍受上游数据许可约束，用户可通过公开索引和文档化的重建路径获取。
 
 快速验证：
 
