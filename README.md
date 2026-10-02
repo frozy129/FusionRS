@@ -28,7 +28,7 @@ python code/dataset/scripts/verify_public_redacted_index.py \
   --index dataset/manifests/fusionrs_public_index_v3_rc4_20260727.jsonl.gz
 ```
 
-Benchmark scoring examples and required model-specific commands are documented in [`benchmark/README.md`](benchmark/README.md). Exact released-weight hashes are listed in [`models/MODEL_MANIFEST.json`](models/MODEL_MANIFEST.json).
+Benchmark scoring examples and required model-specific commands are documented in [`benchmark/README.md`](benchmark/README.md). Exact released-weight hashes are listed in [`models/MODEL_MANIFEST.json`](models/MODEL_MANIFEST.json). A dated RC4 verification record is available in [`docs/RC4_PUBLIC_VERIFICATION_20261003.md`](docs/RC4_PUBLIC_VERIFICATION_20261003.md).
 The release design is compared with related official repositories in [`docs/OPEN_SOURCE_BENCHMARK_PRACTICES.md`](docs/OPEN_SOURCE_BENCHMARK_PRACTICES.md).
 
 ## Reproducibility
